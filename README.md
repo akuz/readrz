@@ -1,4 +1,4 @@
-readrz.com
+readrz
 =============
 
 Readrz.com public code
