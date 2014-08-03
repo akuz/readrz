@@ -6,7 +6,7 @@
   <packaging>pom</packaging>
   <name>Readrz Server Projects Parent</name>
   <properties>
-  	<AutoReadrzDir>../../readrz-deploy-srv/bin</AutoReadrzDir>
+  	<AutoReadrzDir>../../deploy-srv/bin</AutoReadrzDir>
   </properties>
   <modules>
   	<module>../db-ensure-idx</module>
