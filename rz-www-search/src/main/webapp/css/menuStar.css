@@ -1,0 +1,28 @@
+div.menuStar {
+	cursor: pointer;
+	width: 194px;
+	height: 25px;
+	line-height: 27px;
+
+	background-color: #222288;
+	color: #ffffff;
+}
+div.menuStar div.text{
+	
+	background-image: url(/img/triangleD18_on.png);
+	background-repeat: no-repeat;
+	background-position: 5px 3px;
+
+	padding-left: 28px;
+}
+div.menuStar.isOpen {
+	background-color: #442222;
+}
+div.menuStar.isActive {
+	background-color: #880000;
+}
+div.menuStar.isOpen div.text{
+}
+div.menuStar div.menuExt {
+	margin-top: -2px;
+}

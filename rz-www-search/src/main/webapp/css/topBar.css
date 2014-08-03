@@ -1,0 +1,97 @@
+
+div#topBar {
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+	height: 50px;
+	/*
+	background-color: #333333;
+	background-color: #334455;
+	background-color: #778899;
+	background-color: #dddddd;
+	border-bottom: 1px solid #cccccc;
+	background-image: url(/img/back/outlets.png);
+	background-image: url(/img/back/subtle_carbon.png);
+	background-image: url(/img/back/noisy_net.png);
+	background-image: url(/img/back/navy_blue.png);
+	background-image: url(/img/back/twinkle_twinkle.png);
+	background-image: url(/img/back/dark_dotted.png);
+	background-image: url(/img/darken_bottom_35.png);
+	background-repeat: repeat-x;
+	*/
+}
+div#topBar div.readrz {
+	float: left;
+	margin-left: 45px;
+	margin-right: 18px;
+	font-size: 22px;
+	font-weight: 300;
+	line-height: 50px;
+	color: #778899;
+	color: #cccccc;
+	/*
+	text-shadow: 1px 1px 1px #bbbbbb;
+	text-shadow: 0px 0px 3px #ffffff;
+	*/
+}
+div#topBar div.readrz:hover {
+	color: #ffffff;
+}
+div#topBar div.readrz i {
+	margin-right: 5px;
+}
+div#topBar div.readrz span {
+	display: none;
+	font-size: 15px;
+	margin-left: 2px;
+}
+div#topBar div.scrolltop {
+	float: right;
+	display: none;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	background-image: url(/img/scrolltop15_white.png);
+	background-repeat: no-repeat;
+	background-position: 2px 3px;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+div#topBar div.period {
+	float: left;
+	width: 85px;
+	margin-left: 10px;
+}
+div#topBar div.links {
+	font-size: 12px;
+	line-height: 30px;
+}
+div#topBar div.links span {
+	color: #eeeeee;
+	margin: 0px 10px 0px 10px;
+}
+div#topBar div.links a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #9097a0;
+	color: #aaaaaa;
+	text-shadow: 1px 1px 3px #103050;
+	text-shadow: 1px 1px 3px #111111;
+}
+div#topBar div.links a:hover {
+	color: #ffffff;
+}
+div#topBar div.linksLeft {
+	float: left;
+	margin-left: 5px;
+}
+div#topBar div.linksLeft a {
+	margin-right: 20px;
+}
+div#topBar div.linksRight {
+	float: right;
+	margin-right: 20px;
+}
+div#topBar div.linksRight a {
+	margin-left: 5px;
+	margin-right: 15px;
+}

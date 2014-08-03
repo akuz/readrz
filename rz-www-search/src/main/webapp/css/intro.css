@@ -1,0 +1,27 @@
+div#introPanel {
+	display: none;
+	padding: 15px 10px 0px 240px;
+	color: #ffffff;
+	background-color: #6688aa;
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	background-image: url(/img/info.png);
+	background-repeat: no-repeat;
+	background-position: 20px -30px;
+	border-top: 1px solid #aabbcc;
+	border-left: 1px solid #7799bb;
+	border-bottom: 1px solid #446688;
+}
+div#introPanel em {
+	font-style: normal;
+	font-weight: bold;
+}
+div#introPanel div {
+	padding-bottom: 15px;
+}
+div#introPanel div.title {
+	font-size: 16px;
+}
+div#introPanel a {
+	color: #ffff88;
+}

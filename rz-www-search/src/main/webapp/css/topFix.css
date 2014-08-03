@@ -1,0 +1,92 @@
+
+div#topFix {
+	height: 65px;
+	position: relative;
+
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+	font-size: 14px;
+
+	background-color: #445566;
+	background-color: #eeeeee;
+	border-top: 1px solid #556677;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #444444;
+	border-bottom: 1px solid #cccccc;
+}
+div#topFix div.topFixSearch {
+	position: relative;
+	float: left;
+	width: 630px;
+	height: 65px;
+	margin-left: 20px;
+	border: 0px solid Blue;
+}
+div#topFix div.topFixButtons {
+	position: relative;
+	float: right;
+	width: 300px;
+	height: 65px;
+	margin-right: 20px;
+	border: 0px solid Blue;
+}
+div#topFix div.scrollTop {
+	position: absolute;
+	cursor: pointer;
+	display: none;
+	right: 0px;
+	top: 12px;
+	float: right;
+	height: 40px;
+	width: 40px;
+	border: 0px solid Red;
+	background-image: url(/img/scrolltop15_gray.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+div#topFix div.sectionInfos {
+	position: absolute;
+	cursor: pointer;
+	display: none;
+	overflow: visible;
+	top: 12px;
+	right: 50px;
+	width: 240px;
+	height: 65px;
+	border: 0px solid Red;
+}
+div#topFix div.sectionInfo {
+	position: absolute;
+	top: 4px;
+	height: 32px;
+	width: 105px;
+	border-radius: 16px;
+	border-radius: 2px;
+	border: 1px solid #dddddd;
+	border: 1px solid #334455;
+	border: 1px solid #cccccc;
+	background-color: hsl(220, 10%, 90%);
+}
+div#topFix div.sectionInfo1 {
+	left: 0px;
+}
+div#topFix div.sectionInfo2 {
+	left: 135px;
+}
+div#topFix div.text {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding: 0px 10px 0px 7px;
+
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	
+	line-height: 115px;
+	line-height: 32px;
+}
+

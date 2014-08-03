@@ -1,0 +1,27 @@
+div.frontPanel {
+	background-color: #ffffff;
+	font-family: Verdana, Sans-Serif;
+	margin-bottom: 20px;
+}
+div.frontPanel div.frontPanelBody {
+	padding-bottom: 20px;
+}
+div.frontPanel div.frontPanelBody div.frontPanelTitle {
+	font-family: Arial Black, Verdana, Sans-Serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 20px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	color: #000000;
+}
+div.frontPanel div.frontPanelBody div.frontPanelText {
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 5px;
+	color: #444444;
+}
+div.frontPanel div.frontPanelBody div.frontPanelText a {
+	color: #4444cc;
+}

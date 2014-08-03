@@ -1,0 +1,61 @@
+div.column div.items {
+	margin-top: 15px;
+	margin-left: 0px;
+	padding: 0px;
+}
+div.column div.items div.item {
+	margin-bottom: 20px;
+}
+div.column div.items div.item div.result {
+	padding-top: 5px;
+	margin-bottom: 0px;
+}
+div.column div.items div.totalBar {
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #666666;
+}
+div.column div.items div.totalBar span {
+	font-size: 10px;
+	color: #444444;
+	background-color: #eeeeee;
+	padding: 2px 4px 2px 4px;
+}
+div.column div.items div.sublinkBar {
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	line-height: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #808790;
+	border-top: 1px solid #777777;
+	color: #ffffff;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-radius: 0px;
+}
+div.column div.items div.sublinkBar div.sublinkText {
+	margin-left: 10px;
+	margin-right: 5px;
+	background-image: url(/img/expand18_off.png); 
+	background-repeat: no-repeat;
+	background-position: 247px -1px;
+}
+div.column div.items div.sublinkBar div.sublinkText em {
+	font-style: normal;
+	font-weight: bold;
+}
+div.column div.items div.sublinkBar div.sublinkText span {
+	margin-left: 5px;
+	font-size: 10px;
+	background-color: #eeeeee;
+	background-color: #449944;
+	background-color: #556655;
+	background-color: #7799bb;
+	background-color: #eeeeee;
+	background-color: #882222;
+	padding: 2px 4px 2px 4px;
+	border-radius: 2px;
+}

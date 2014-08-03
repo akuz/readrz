@@ -1,0 +1,160 @@
+div.tabsList {
+	border: 0px solid Blue;
+}
+div.tabsList div.box {
+	width: 400px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+div.tabsList div.box div.head {
+	line-height: 30px;
+	padding: 0px 10px 0px 10px;
+	font-family: Verdana, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #aa0000;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background-image: url(/img/expand18_off.png);
+	background-position: 375px 6px;
+	background-repeat: no-repeat;
+}
+div.tabsList div.box div.keys {
+	line-height: 20px;
+	padding: 5px 5px 5px 10px;
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	background-color: #eeeeee;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+div.tabsList div.box div.keys div.key {
+	display: inline-block;
+	margin-top: 2px;
+	margin-right: 7px;
+	margin-bottom: 3px;
+	white-space: nowrap;
+}
+div.tabsList div.box div.keys em {
+	color: #222288;
+	font-weight: normal;
+	font-style: normal;
+}
+div.tabsList div.box div.desc {
+	line-height: 30px;
+	padding: 0px 10px 0px 10px;
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #888888;
+	background-color: #dddddd;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+div.tabsList div.item {
+	clear: both;
+	position: relative;
+	border: 0px solid Red;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+div.tabsList div.item.loading {
+	height: 32px;
+	background-image: url(/img/loadingBlack.gif);
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+}
+div.tabsList div.item div.name {
+	cursor: pointer;
+	float: left;
+	width: 180px;
+	padding-left: 10px;
+	padding-right: 25px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 30px;
+	font-size: 14px;
+	font-family: Verdana, Sans-Serif;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #aa0000;
+	border: 0px solid #222222;
+	border-radius: 0px;
+	background-image: url(/img/expand18_off.png);
+	background-position: 190px 6px;
+	background-repeat: no-repeat;
+}
+div.tabsList div.item div.text {
+	float: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: Verdana, Sans-Serif;
+	color: #222222;
+	border: 1px solid #ffffff;
+}
+div.tabsList div.item div.text.count {
+	cursor: pointer;
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #ffffff;
+	background-color: #444488;
+	border: 1px solid #333377;
+	border-radius: 2px;
+}
+div.tabsList div.item div.text.user {
+	cursor: pointer;
+	color: #ffffff;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #444488;
+	border: 1px solid #333377;
+	border-radius: 2px;
+}
+div.tabsList div.item div.option {
+	position: relative;
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: visible;
+	line-height: 30px;
+	font-size: 12px;
+	font-family: Verdana, Sans-Serif;
+	color: #ffffff;
+	background-color: #444488;
+	border: 0px solid #333377;
+	border-radius: 0px;
+}
+div.tabsList div.item div.option.delete {
+	background-color: #884444;
+	border: 0px solid #773333;
+}
+div.tabsList div.item div.option.add {
+	margin-left: 0px;
+	font-size: 14px;
+	background-color: #448844;
+	border: 0px solid #337733;
+}
+div.tabsList div.item div.privacy {
+	width: 45px;
+}
+div.tabsList div.item div.privacy.isPublic {
+	padding-left: 30px;
+	background-image: url(/img/public18_yellow.png);
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
+}
+div.tabsList div.item div.privacy.isPrivate {
+	padding-left: 30px;
+	background-image: url(/img/private18_red.png);
+	background-position: 6px 6px;
+	background-repeat: no-repeat;
+}

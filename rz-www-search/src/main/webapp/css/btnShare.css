@@ -1,0 +1,88 @@
+div.btnShare {
+	float: right;
+	position: relative;
+	cursor: pointer;
+	height: 18px;
+	width: 18px;
+	margin-top: 6px;
+	padding-right: 5px;
+	background-image: url(/img/share18_off.png);
+	background-repeat: no-repeat;
+}
+div.btnShare:hover {
+	background-image: url(/img/share18_on.png);
+	background-repeat: no-repeat;
+}
+div.sharePanel {
+	display: none;
+	position: absolute;
+	padding-top: 10px;
+	z-index: 2;
+	top: 58px;
+	left: 0px;
+	width: 300px;
+	height: 200px;
+	overflow: visible;
+	background-color: #ffffdd;
+	border: 0px solid #880000;
+	background-image: url(/img/arrow32B.png);
+	background-repeat: no-repeat;
+	background-position: 270px -10px;
+	
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	
+	-moz-box-shadow: 0px 4px 6px #444444;
+	-webkit-box-shadow: 0px 4px 6px #444444;
+	box-shadow: 0px 4px 6px #444444;
+}
+
+div.sharePanel div.shareTitle {
+	font-family: Verdana, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #880000;
+	line-height: 30px;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+div.sharePanel div.shareSection {
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #444444;
+}
+
+div.sharePanel input.shareLink {
+
+	height: 16px;
+	width: 255px;
+
+	padding-top: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+
+	font-family: Verdana, Sans-Serif;
+	font-size: 10px;
+
+	color: #444444;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+}
+
+div.sharePanel div.closeButton {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	line-height: 25px;
+	padding: 2px 10px 2px 10px;
+	border-radius: 2px;
+	color: #ffffff;
+	background-color: #000000;
+}
+

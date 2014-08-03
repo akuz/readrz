@@ -1,0 +1,27 @@
+div#bottom {
+	margin: 50px 40px 0px 40px;
+	border-top: 1px solid #aaaaaa;
+	padding: 10px;
+}
+div#bottom div.links {
+}
+div#bottom div.links a {
+	font-size: 14px;
+	font-weight: 300;
+	color: #cccccc;
+}
+div#bottom div.links a:hover {
+	color: #ffffff;
+}
+div#bottom div.links.left {
+	float: left;
+}
+div#bottom div.links.left a {
+	margin-right: 15px;
+}
+div#bottom div.links.right {
+	float: right;
+}
+div#bottom div.links.right a {
+	margin-left: 15px;
+}

@@ -1,0 +1,17 @@
+
+svg {
+	border: 0px solid Red;
+	position: relative;
+}
+svg circle {
+	cursor: pointer;
+	pointer-events: all;
+}
+svg path {
+	cursor: pointer;
+	pointer-events: all;
+}
+svg text {
+	cursor: pointer;
+	pointer-events: all;
+}

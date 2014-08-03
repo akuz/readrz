@@ -1,0 +1,32 @@
+
+div.pop {
+	position: absolute;
+	z-index: 2;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+}
+div.pop div.back {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #334455;
+	background-color: #556677;
+	padding-bottom: 400px;
+	opacity: 0.9;
+}
+div.pop div.margin {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+}
+div.pop div.panel {
+	position: relative;
+	padding: 40px 40px 40px 40px;
+	background-color: #778899;
+	box-shadow: 0px 5px 10px #444444;
+	border-radius: 10px;
+}

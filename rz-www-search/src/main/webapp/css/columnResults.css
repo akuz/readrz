@@ -1,0 +1,21 @@
+div.column div.results {
+	margin-top: 10px;
+	margin-left: 0px;
+	padding: 0px;
+	padding-bottom: 10px;
+}
+div.column div.results div.result {
+	margin-bottom: 20px;
+	padding-top: 10px;
+	border-top: 1px solid #eeeeee;
+}
+div.column div.results div.element {
+	margin-top: 10px;
+	border-top: 1px solid #eeeeee;
+	padding: 5px 10px 5px 10px;
+	color: #446688;
+	font-family: Verdana, Sans-Serif;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+}

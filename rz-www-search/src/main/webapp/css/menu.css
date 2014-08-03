@@ -1,0 +1,89 @@
+div.menu {
+	/* header styled individually */
+}
+div.menu div.menuExt {
+	display: none;
+	position: relative;
+	z-index: 1;
+	background-color: #556677;
+	background-color: #884444;
+	padding: 10px 10px 5px 10px;
+	box-shadow: 2px 2px 2px #111111;
+}
+div.menu div.menuExt div.menuItem {
+	color: #ffffff;
+	position: relative;
+}
+div.menu div.menuExt div.menuItem img {
+	margin-right: 5px;
+}
+div.menu div.menuExt div.menuButton {
+	cursor: pointer;
+	margin-bottom: 5px;
+	padding: 8px 8px 8px 10px;
+	white-space: nowrap;
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+	background-color: #445566;
+	background-color: #773333;
+	border: 1px solid #334455;
+	border: 1px solid #662222;
+	border-radius: 2px;
+	font-size: 14px;
+	line-height: 16px;
+	height: 16px;
+}
+div.menu div.menuExt div.menuButton.active {
+	background-color: #223344;
+	background-color: #440000;
+	border: 1px solid #112233;
+	border: 1px solid #330000;
+}
+div.menu div.menuExt div.menuButton:hover {
+	background-color: #334455;
+	background-color: #662222;
+	border: 1px solid #223344;
+	border: 1px solid #551111;
+}
+div.menu div.menuExt div.menuButton span.count {
+	padding: 3px 5px 2px 5px;
+	border-radius: 2px;
+	color: #aaaaaa;
+	background-color: #553333;
+	font-size: 12px;
+	margin-left: 5px;
+}
+div.menu div.menuExt div.menuButton:hover span.count {
+	background-color: #442222;
+}
+div.menu div.menuExt div.menuButton.active span.count {
+	color: #999999;
+	background-color: #331111;
+}
+div.menu div.menuExt div.menuButton.active:hover span.count {
+	background-color: #442222;
+}
+div.menu div.menuExt div.menuGroup {
+	margin-bottom: 5px;
+	padding: 8px 8px 8px 10px;
+	white-space: nowrap;
+	color: #ffff88;
+	border: 1px solid transparent;
+	font-size: 12px;
+	line-height: 18px;
+	height: 16px;
+}
+div.menu div.menuExt div.menuChildren {
+	position: absolute;
+	background-color: #442222;
+	top: -10px;
+	left: 150px;
+	display: none;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	border-left: 1px solid #222222;
+}

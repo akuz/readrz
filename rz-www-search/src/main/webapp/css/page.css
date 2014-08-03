@@ -1,0 +1,24 @@
+body {
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 30px;
+	background-color: #ffffff;
+	color: #222222;
+}
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+div {
+	font-family: Verdana, Sans-Serif;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+div.more {
+	font-family: Times New Roman, Serif;
+	font-size: 14px;
+	font-weight: normal;
+}

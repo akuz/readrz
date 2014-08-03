@@ -1,0 +1,36 @@
+body {
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #446688;
+	color: #ffffff;
+	background-color: #6688aa;
+	color: #ffffff;
+}
+img {
+	margin-top: 20px;
+}
+em {
+	font-style: normal;
+	font-weight: bold;
+}
+div {
+	font-family: Verdana, Sans-Serif;
+	font-size: 16px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+div.more {
+	font-size: 12px;
+}
+div span {
+	color: #ffffff;
+	background-color: #ff0000;
+	padding: 2px 5px 2px 5px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-weight: normal;
+}
+div span.more {
+	margin-left: 10px;
+}

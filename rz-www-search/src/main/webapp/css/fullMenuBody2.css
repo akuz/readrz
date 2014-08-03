@@ -1,0 +1,42 @@
+div.fullMenuBody2 div.item div.head {
+	border: 1px solid #445566;
+}
+div.fullMenuBody2 div.item div.head div.text {
+	color: #eeeeee;
+}
+div.fullMenuBody2 div.item div.head div.count {
+	color: #dddddd;
+	background-color: #556677;
+}
+
+div.fullMenuBody2 div.item.isActive > a > div.head {
+	background-color: #ffffff;
+	border: 1px solid #eeeeee;
+	border-top: 1px solid #dddddd;
+}
+div.fullMenuBody2 div.item.isActive > a > div.head > div.text {
+	color: #444444;
+	text-shadow: 1px 1px 2px #bbbbbb;
+}
+div.fullMenuBody2 div.item.isActive > a > div.head > div.count {
+	color: #444444;
+	text-shadow: 1px 1px 2px #bbbbbb;
+	background-color: #dddddd;
+}
+
+div.fullMenuBody2 div.item.isChildActive > a > div.head {
+	background-color: #556677;
+	border: 1px solid #405060;
+	border-top: 1px solid #384858;
+}
+div.fullMenuBody2 div.item.isChildActive > a > div.head > div.text {
+	text-shadow: 1px 1px 2px #334455;
+}
+div.fullMenuBody2 div.item.isChildActive > a > div.head > div.count {
+	text-shadow: 1px 1px 2px #334455;
+	background-color: #667788;
+}
+
+div.fullMenuBody2 div.item div.children {
+	border-left: 1px dotted #667788;
+}

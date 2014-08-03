@@ -1,0 +1,31 @@
+
+div.btnQuery {
+	float: left;
+	cursor: pointer;
+	
+	width: 155px;
+	height: 28px;
+	line-height: 30px;
+	border: 0px solid Blue;
+
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding-left: 28px;
+
+	background-image: url(/img/search18_off.png);
+	background-repeat: no-repeat;
+	background-position: 5px 5px;
+	color: #aaaaaa;
+}
+div.btnQuery.isOn {
+	background-image: url(/img/search18_on.png);
+	background-repeat: no-repeat;
+	color: #ffffff;
+}
+div.btnQuery em {
+	font-style: normal;
+	font-weight: bold;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE Configure PUBLIC "-//Jetty//Configure//EN" "http://www.eclipse.org/jetty/configure.dtd">
+<Configure id="server" class="org.eclipse.jetty.server.Server">
+<!-- Call name="addConnector">
+  <Arg>
+    <New class="org.eclipse.jetty.server.nio.SelectChannelConnector">
+      <Set name="host">andrey.local</Set>
+      <Set name="port">8080</Set>
+    </New>
+  </Arg>
+</Call -->
+</Configure>

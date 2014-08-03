@@ -1,0 +1,90 @@
+
+
+/**********/
+/* BROWSE */
+/**********/
+body {
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #222222;
+	padding-bottom: 300px;
+	background-color: #cccccc;
+	background-color: #778899;
+}
+div.loading {
+	height: 40px;
+	background-image: url(/img/loadingSquares556677.gif);
+	background-position: 15px 20px;
+	background-repeat: no-repeat;
+}
+
+
+/******************/
+/*** ROOT PANEL ***/
+/******************/
+
+div#rootPanel {
+	position: relative;
+	padding: 10px 40px 0px 40px;
+}
+
+
+/******************/
+/*** ROOT QUOTE ***/
+/******************/
+
+div#rootQuote {
+	background-color: #556677;
+	overflow: hidden;
+}
+div#rootQuote div.commonMargin {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+div#rootQuote div.quote {
+	margin-left: 40px;
+}
+div#rootQuote div.caption {
+	display: none;
+	line-height: 30px;
+	color: #666666;
+	font-size: 14px;
+	font-weight: 400;
+	margin-left: 0px;
+}
+div#rootQuote div.caption.top {
+	margin-bottom: 20px;
+}
+div#rootQuote div.caption.btm {
+	margin-top: 20px;
+}
+
+
+/**************/
+/* DATA PANEL */
+/**************/
+
+div.dataPanel {
+	position: relative;
+	/*
+	min-height: 450px;
+	*/
+}
+div.dataPanel div.dataBtns {
+	position: absolute;
+	width: auto;
+	top: 0px;
+	right: 0px;
+}
+
+
+/******************/
+/* CONTROLS PANEL */
+/******************/
+
+div.dataPanel div.controlsPanel {
+	position: relative;
+	margin-bottom: 25px;
+}
+

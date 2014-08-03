@@ -1,0 +1,63 @@
+div.tabsLevel2 {
+	border-top: 10px solid #fffff4;
+	background-color: #fffff4;
+	border-bottom: 1px solid #dddddd;
+	overflow: visible;
+}
+div.tabsLevel2 div.tabsLevel2Inner{
+	height: 29px;
+	float: left;
+	margin-left: 10px;
+	border-right: 1px solid #b0b0b0;
+	border-right: 1px solid #dddddd;
+	background-color: #eeeeee;
+	white-space: nowrap;
+}
+div.tabsLevel2 div.tabLevel2 {
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	font-family: Verdana, Sans-Serif;
+	padding: 0px 10px 0px 10px;
+	border-left: 1px solid #556677;
+	border-left: 1px solid #b0b0b0;
+	border-left: 1px solid #dddddd;
+	border-top: 1px solid #eeeeee;
+	background-color: #334455;
+	background-color: #808790;
+	background-color: #c0c7d0;
+	background-color: #eeeeee;
+	color: #ffffff;
+	color: #ffffff;
+	color: #445566;
+	color: #334455;
+	color: #444444;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	background-image: none;
+	background-repeat: repeat-x;
+}
+div.tabsLevel2 div.tabLevel2.isActive {
+	height: 29px;
+	border-left: 1px solid #334455;
+	border-left: 1px solid #888888;
+	border-left: 1px solid #444444;
+	border-left: 1px solid #cccccc;
+	border-top: 1px solid #dddddd;
+	background-color: #dddddd;
+	background-color: #334455;
+	background-color: #444444;
+	background-color: #ffffff;
+	color: #224466;
+	color: #ffffff;
+	color: #222222;
+	background-image: url(/img/back26grad.png);
+	background-image: none;
+	background-repeat: repeat-x;
+}
+div.tabsLevel2 div.tabsLevel2Bottom {
+	height: 0px;
+	background-color: #aa0000;
+	border-bottom: 0px solid #660000;
+}

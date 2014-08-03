@@ -1,0 +1,24 @@
+div.tabsUngroup {
+	float: right;
+	width: 80px;
+	height: 28px;
+	line-height: 30px;
+}
+div.tabsUngroup div.tabsItem {
+	float: left;
+	margin-left: 15px;
+	cursor: pointer;
+	font-family: Verdana, Sans-Serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #aaaaaa;
+}
+div.tabsUngroup div.tabsItem:hover {
+	color: #ffffff;
+}
+div.tabsUngroup div.tabsItem.isActive {
+	color: #ffffff;
+}
+div.tabsUngroup div.tabsItem.isActive:hover {
+	color: #ffffff;
+}

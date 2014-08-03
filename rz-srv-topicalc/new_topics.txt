@@ -1,0 +1,2545 @@
+{
+  "_id": "e/topics",
+  "_list": [
+    {
+      "_id": "topic0",
+      "_name": "Topic 0",
+      "_groupIds": [],
+      "_topicProb": 0.705335,
+      "_topicWords": [
+        {
+          "word": "Call",
+          "stem": "call_",
+          "prob": 0.003998
+        },
+        {
+          "word": "2013",
+          "stem": "2013_",
+          "prob": 0.003534
+        },
+        {
+          "word": "market",
+          "stem": "market_",
+          "prob": 0.003138
+        },
+        {
+          "word": "Officer",
+          "stem": "offic_",
+          "prob": 0.003128
+        },
+        {
+          "word": "Executive",
+          "stem": "execut_",
+          "prob": 0.002722
+        },
+        {
+          "word": "Earnings",
+          "stem": "earn_",
+          "prob": 0.002704
+        },
+        {
+          "word": "bank",
+          "stem": "bank_",
+          "prob": 0.002689
+        },
+        {
+          "word": "Chief",
+          "stem": "chief_",
+          "prob": 0.002517
+        },
+        {
+          "word": "million",
+          "stem": "million_",
+          "prob": 0.002365
+        },
+        {
+          "word": "economy",
+          "stem": "e/finance/economy",
+          "prob": 0.002271
+        },
+        {
+          "word": "government",
+          "stem": "govern_",
+          "prob": 0.002252
+        },
+        {
+          "word": "July",
+          "stem": "juli_",
+          "prob": 0.002127
+        },
+        {
+          "word": "business",
+          "stem": "busi_",
+          "prob": 0.002077
+        },
+        {
+          "word": "price",
+          "stem": "price_",
+          "prob": 0.002058
+        },
+        {
+          "word": "work",
+          "stem": "work_",
+          "prob": 0.002006
+        },
+        {
+          "word": "stock",
+          "stem": "stock_",
+          "prob": 0.001998
+        },
+        {
+          "word": "President",
+          "stem": "presid_",
+          "prob": 0.001962
+        },
+        {
+          "word": "Results",
+          "stem": "result_",
+          "prob": 0.001955
+        },
+        {
+          "word": "Management",
+          "stem": "manag_",
+          "prob": 0.001902
+        },
+        {
+          "word": "plans",
+          "stem": "plan_",
+          "prob": 0.001898
+        },
+        {
+          "word": "home",
+          "stem": "home_",
+          "prob": 0.001888
+        },
+        {
+          "word": "group",
+          "stem": "group_",
+          "prob": 0.001864
+        },
+        {
+          "word": "investors",
+          "stem": "investor_",
+          "prob": 0.001838
+        },
+        {
+          "word": "financial",
+          "stem": "financi_",
+          "prob": 0.00182
+        },
+        {
+          "word": "National",
+          "stem": "nation_",
+          "prob": 0.001818
+        },
+        {
+          "word": "rates",
+          "stem": "rate_",
+          "prob": 0.001737
+        },
+        {
+          "word": "largest",
+          "stem": "e/synonyms/largest",
+          "prob": 0.001714
+        },
+        {
+          "word": "help",
+          "stem": "help_",
+          "prob": 0.001707
+        },
+        {
+          "word": "American",
+          "stem": "american_",
+          "prob": 0.001687
+        },
+        {
+          "word": "expected",
+          "stem": "expect_",
+          "prob": 0.001664
+        },
+        {
+          "word": "jobs",
+          "stem": "job_",
+          "prob": 0.001645
+        },
+        {
+          "word": "public",
+          "stem": "public_",
+          "prob": 0.001598
+        },
+        {
+          "word": "Q2",
+          "stem": "q2_",
+          "prob": 0.001564
+        },
+        {
+          "word": "fund",
+          "stem": "fund_",
+          "prob": 0.001554
+        },
+        {
+          "word": "high",
+          "stem": "high_",
+          "prob": 0.001549
+        },
+        {
+          "word": "Discusses",
+          "stem": "discuss_",
+          "prob": 0.001538
+        },
+        {
+          "word": "city",
+          "stem": "citi_",
+          "prob": 0.001529
+        },
+        {
+          "word": "officials",
+          "stem": "offici_",
+          "prob": 0.001524
+        },
+        {
+          "word": "Snowden",
+          "stem": "snowden_",
+          "prob": 0.001496
+        },
+        {
+          "word": "made",
+          "stem": "made_",
+          "prob": 0.001485
+        },
+        {
+          "word": "growth",
+          "stem": "growth_",
+          "prob": 0.00148
+        },
+        {
+          "word": "trading",
+          "stem": "trade_",
+          "prob": 0.001475
+        },
+        {
+          "word": "rise",
+          "stem": "rise_",
+          "prob": 0.001461
+        },
+        {
+          "word": "according",
+          "stem": "accord_",
+          "prob": 0.00146
+        },
+        {
+          "word": "service",
+          "stem": "servic_",
+          "prob": 0.001459
+        },
+        {
+          "word": "offer",
+          "stem": "offer_",
+          "prob": 0.001436
+        },
+        {
+          "word": "second",
+          "stem": "second_",
+          "prob": 0.001425
+        },
+        {
+          "word": "deal",
+          "stem": "deal_",
+          "prob": 0.001381
+        },
+        {
+          "word": "sales",
+          "stem": "sale_",
+          "prob": 0.001369
+        },
+        {
+          "word": "right",
+          "stem": "right_",
+          "prob": 0.001368
+        },
+        {
+          "word": "general",
+          "stem": "gener_",
+          "prob": 0.001345
+        },
+        {
+          "word": "claims",
+          "stem": "claim_",
+          "prob": 0.001344
+        },
+        {
+          "word": "House",
+          "stem": "hous_",
+          "prob": 0.001343
+        },
+        {
+          "word": "school",
+          "stem": "school_",
+          "prob": 0.001334
+        },
+        {
+          "word": "start",
+          "stem": "start_",
+          "prob": 0.001333
+        },
+        {
+          "word": "change",
+          "stem": "chang_",
+          "prob": 0.001327
+        },
+        {
+          "word": "industry",
+          "stem": "industri_",
+          "prob": 0.001321
+        },
+        {
+          "word": "crash",
+          "stem": "crash_",
+          "prob": 0.001307
+        },
+        {
+          "word": "big",
+          "stem": "big_",
+          "prob": 0.001306
+        },
+        {
+          "word": "face",
+          "stem": "face_",
+          "prob": 0.0013
+        },
+        {
+          "word": "billion",
+          "stem": "billion_",
+          "prob": 0.001288
+        },
+        {
+          "word": "investment",
+          "stem": "invest_",
+          "prob": 0.001287
+        },
+        {
+          "word": "record",
+          "stem": "record_",
+          "prob": 0.001281
+        },
+        {
+          "word": "good",
+          "stem": "good_",
+          "prob": 0.001279
+        },
+        {
+          "word": "part",
+          "stem": "part_",
+          "prob": 0.001279
+        },
+        {
+          "word": "Street",
+          "stem": "street_",
+          "prob": 0.001279
+        },
+        {
+          "word": "state",
+          "stem": "state_",
+          "prob": 0.001277
+        },
+        {
+          "word": "continue",
+          "stem": "continu_",
+          "prob": 0.001274
+        },
+        {
+          "word": "Federal",
+          "stem": "feder_",
+          "prob": 0.00127
+        },
+        {
+          "word": "International",
+          "stem": "intern_",
+          "prob": 0.001264
+        },
+        {
+          "word": "number",
+          "stem": "number_",
+          "prob": 0.001261
+        },
+        {
+          "word": "pay",
+          "stem": "pai_",
+          "prob": 0.001245
+        },
+        {
+          "word": "top",
+          "stem": "top_",
+          "prob": 0.001243
+        },
+        {
+          "word": "find",
+          "stem": "find_",
+          "prob": 0.001234
+        },
+        {
+          "word": "open",
+          "stem": "open_",
+          "prob": 0.00118
+        },
+        {
+          "word": "against",
+          "stem": "against_",
+          "prob": 0.001179
+        },
+        {
+          "word": "name",
+          "stem": "name_",
+          "prob": 0.001178
+        },
+        {
+          "word": "increase",
+          "stem": "increas_",
+          "prob": 0.001161
+        },
+        {
+          "word": "data",
+          "stem": "data_",
+          "prob": 0.001118
+        },
+        {
+          "word": "fall",
+          "stem": "fall_",
+          "prob": 0.001113
+        },
+        {
+          "word": "profit",
+          "stem": "profit_",
+          "prob": 0.001112
+        },
+        {
+          "word": "case",
+          "stem": "case_",
+          "prob": 0.001108
+        },
+        {
+          "word": "security",
+          "stem": "secur_",
+          "prob": 0.001107
+        },
+        {
+          "word": "these",
+          "stem": "these_",
+          "prob": 0.001104
+        },
+        {
+          "word": "June",
+          "stem": "june_",
+          "prob": 0.001101
+        },
+        {
+          "word": "story",
+          "stem": "stori_",
+          "prob": 0.0011
+        },
+        {
+          "word": "train",
+          "stem": "train_",
+          "prob": 0.001098
+        },
+        {
+          "word": "close",
+          "stem": "close_",
+          "prob": 0.001091
+        },
+        {
+          "word": "former",
+          "stem": "former_",
+          "prob": 0.001089
+        },
+        {
+          "word": "firm",
+          "stem": "firm_",
+          "prob": 0.001087
+        },
+        {
+          "word": "turn",
+          "stem": "turn_",
+          "prob": 0.001085
+        },
+        {
+          "word": "think",
+          "stem": "think_",
+          "prob": 0.001082
+        },
+        {
+          "word": "cost",
+          "stem": "cost_",
+          "prob": 0.001078
+        },
+        {
+          "word": "warned",
+          "stem": "warn_",
+          "prob": 0.001074
+        },
+        {
+          "word": "power",
+          "stem": "power_",
+          "prob": 0.001056
+        },
+        {
+          "word": "lead",
+          "stem": "lead_",
+          "prob": 0.001054
+        },
+        {
+          "word": "money",
+          "stem": "monei_",
+          "prob": 0.001048
+        },
+        {
+          "word": "Director",
+          "stem": "director_",
+          "prob": 0.001048
+        },
+        {
+          "word": "return",
+          "stem": "return_",
+          "prob": 0.001047
+        },
+        {
+          "word": "interest",
+          "stem": "interest_",
+          "prob": 0.001045
+        }
+      ]
+    },
+    {
+      "_id": "topic1",
+      "_name": "Topic 1",
+      "_groupIds": [],
+      "_topicProb": 0.062531,
+      "_topicWords": [
+        {
+          "word": "Senate",
+          "stem": "senat_",
+          "prob": 0.014241
+        },
+        {
+          "word": "House",
+          "stem": "hous_",
+          "prob": 0.012251
+        },
+        {
+          "word": "party",
+          "stem": "parti_",
+          "prob": 0.01203
+        },
+        {
+          "word": "election",
+          "stem": "elect_",
+          "prob": 0.011513
+        },
+        {
+          "word": "vote",
+          "stem": "vote_",
+          "prob": 0.010332
+        },
+        {
+          "word": "bill",
+          "stem": "bill_",
+          "prob": 0.009181
+        },
+        {
+          "word": "Republicans",
+          "stem": "republican_",
+          "prob": 0.008768
+        },
+        {
+          "word": "law",
+          "stem": "law_",
+          "prob": 0.008613
+        },
+        {
+          "word": "government",
+          "stem": "govern_",
+          "prob": 0.007872
+        },
+        {
+          "word": "immigration",
+          "stem": "immigr_",
+          "prob": 0.007738
+        },
+        {
+          "word": "Labour",
+          "stem": "labour_",
+          "prob": 0.007695
+        },
+        {
+          "word": "Democrats",
+          "stem": "democrat_",
+          "prob": 0.007632
+        },
+        {
+          "word": "leader",
+          "stem": "leader_",
+          "prob": 0.007469
+        },
+        {
+          "word": "political",
+          "stem": "polit_",
+          "prob": 0.007345
+        },
+        {
+          "word": "state",
+          "stem": "state_",
+          "prob": 0.007134
+        },
+        {
+          "word": "campaign",
+          "stem": "campaign_",
+          "prob": 0.006419
+        },
+        {
+          "word": "MPs",
+          "stem": "mp_",
+          "prob": 0.006186
+        },
+        {
+          "word": "mayor",
+          "stem": "mayor_",
+          "prob": 0.006026
+        },
+        {
+          "word": "former",
+          "stem": "former_",
+          "prob": 0.005917
+        },
+        {
+          "word": "prime minister",
+          "stem": "e/government/prime_minster",
+          "prob": 0.005749
+        },
+        {
+          "word": "reform",
+          "stem": "reform_",
+          "prob": 0.005625
+        },
+        {
+          "word": "president",
+          "stem": "presid_",
+          "prob": 0.005562
+        },
+        {
+          "word": "ruling",
+          "stem": "rule_",
+          "prob": 0.005458
+        },
+        {
+          "word": "abortion",
+          "stem": "abort_",
+          "prob": 0.005407
+        },
+        {
+          "word": "Weiner",
+          "stem": "weiner_",
+          "prob": 0.005086
+        },
+        {
+          "word": "plans",
+          "stem": "plan_",
+          "prob": 0.004969
+        },
+        {
+          "word": "court",
+          "stem": "court_",
+          "prob": 0.004926
+        },
+        {
+          "word": "union",
+          "stem": "union_",
+          "prob": 0.004765
+        },
+        {
+          "word": "minister",
+          "stem": "minist_",
+          "prob": 0.004416
+        },
+        {
+          "word": "support",
+          "stem": "support_",
+          "prob": 0.004408
+        },
+        {
+          "word": "National",
+          "stem": "nation_",
+          "prob": 0.00427
+        },
+        {
+          "word": "gay",
+          "stem": "gai_",
+          "prob": 0.004175
+        },
+        {
+          "word": "tax",
+          "stem": "tax_",
+          "prob": 0.004008
+        },
+        {
+          "word": "poll",
+          "stem": "poll_",
+          "prob": 0.003986
+        },
+        {
+          "word": "rights",
+          "stem": "right_",
+          "prob": 0.003964
+        },
+        {
+          "word": "passed",
+          "stem": "pass_",
+          "prob": 0.003876
+        },
+        {
+          "word": "Texas",
+          "stem": "texa_",
+          "prob": 0.00384
+        },
+        {
+          "word": "Conservative",
+          "stem": "conserv_",
+          "prob": 0.00384
+        },
+        {
+          "word": "Congress",
+          "stem": "congress_",
+          "prob": 0.003784
+        },
+        {
+          "word": "lawmakers",
+          "stem": "lawmak_",
+          "prob": 0.003738
+        },
+        {
+          "word": "marriage",
+          "stem": "marriag_",
+          "prob": 0.003723
+        },
+        {
+          "word": "calls",
+          "stem": "call_",
+          "prob": 0.003709
+        },
+        {
+          "word": "Tory",
+          "stem": "tori_",
+          "prob": 0.003709
+        },
+        {
+          "word": "candidate",
+          "stem": "candid_",
+          "prob": 0.003672
+        },
+        {
+          "word": "legislation",
+          "stem": "legisl_",
+          "prob": 0.003665
+        },
+        {
+          "word": "Miliband",
+          "stem": "miliband_",
+          "prob": 0.00357
+        },
+        {
+          "word": "against",
+          "stem": "against_",
+          "prob": 0.003461
+        },
+        {
+          "word": "Anthony",
+          "stem": "anthoni_",
+          "prob": 0.003396
+        },
+        {
+          "word": "opposition",
+          "stem": "opposit_",
+          "prob": 0.003381
+        },
+        {
+          "word": "White",
+          "stem": "white_",
+          "prob": 0.003355
+        },
+        {
+          "word": "secretary",
+          "stem": "secretari_",
+          "prob": 0.003279
+        },
+        {
+          "word": "change",
+          "stem": "chang_",
+          "prob": 0.003228
+        },
+        {
+          "word": "Sen",
+          "stem": "sen_",
+          "prob": 0.003206
+        },
+        {
+          "word": "proposed",
+          "stem": "propos_",
+          "prob": 0.003199
+        },
+        {
+          "word": "Spitzer",
+          "stem": "spitzer_",
+          "prob": 0.003126
+        },
+        {
+          "word": "coalition",
+          "stem": "coalit_",
+          "prob": 0.003068
+        },
+        {
+          "word": "governor",
+          "stem": "governor_",
+          "prob": 0.003068
+        },
+        {
+          "word": "committee",
+          "stem": "committe_",
+          "prob": 0.003046
+        },
+        {
+          "word": "Ed",
+          "stem": "ed_",
+          "prob": 0.003024
+        },
+        {
+          "word": "public",
+          "stem": "public_",
+          "prob": 0.002995
+        },
+        {
+          "word": "legal",
+          "stem": "legal_",
+          "prob": 0.00298
+        },
+        {
+          "word": "administration",
+          "stem": "administr_",
+          "prob": 0.00282
+        },
+        {
+          "word": "resign",
+          "stem": "resign_",
+          "prob": 0.002747
+        },
+        {
+          "word": "approved",
+          "stem": "approv_",
+          "prob": 0.002711
+        },
+        {
+          "word": "majority",
+          "stem": "major_",
+          "prob": 0.002667
+        },
+        {
+          "word": "debate",
+          "stem": "debat_",
+          "prob": 0.00266
+        },
+        {
+          "word": "scandal",
+          "stem": "scandal_",
+          "prob": 0.002609
+        },
+        {
+          "word": "Gov",
+          "stem": "gov_",
+          "prob": 0.002601
+        },
+        {
+          "word": "parliament",
+          "stem": "parliament_",
+          "prob": 0.002579
+        },
+        {
+          "word": "decision",
+          "stem": "decis_",
+          "prob": 0.002572
+        },
+        {
+          "word": "run",
+          "stem": "run_",
+          "prob": 0.002558
+        },
+        {
+          "word": "federal",
+          "stem": "feder_",
+          "prob": 0.002528
+        },
+        {
+          "word": "Act",
+          "stem": "act_",
+          "prob": 0.002521
+        },
+        {
+          "word": "challenge",
+          "stem": "challeng_",
+          "prob": 0.002499
+        },
+        {
+          "word": "presidential",
+          "stem": "presidenti_",
+          "prob": 0.002492
+        },
+        {
+          "word": "Security",
+          "stem": "secur_",
+          "prob": 0.002463
+        },
+        {
+          "word": "face",
+          "stem": "face_",
+          "prob": 0.002434
+        },
+        {
+          "word": "general",
+          "stem": "gener_",
+          "prob": 0.002426
+        },
+        {
+          "word": "race",
+          "stem": "race_",
+          "prob": 0.002397
+        },
+        {
+          "word": "power",
+          "stem": "power_",
+          "prob": 0.00239
+        },
+        {
+          "word": "ban",
+          "stem": "ban_",
+          "prob": 0.00239
+        },
+        {
+          "word": "voters",
+          "stem": "voter_",
+          "prob": 0.002354
+        },
+        {
+          "word": "members",
+          "stem": "member_",
+          "prob": 0.002332
+        },
+        {
+          "word": "Washington",
+          "stem": "washington_",
+          "prob": 0.002324
+        },
+        {
+          "word": "win",
+          "stem": "win_",
+          "prob": 0.002317
+        },
+        {
+          "word": "GOP",
+          "stem": "gop_",
+          "prob": 0.00231
+        },
+        {
+          "word": "confirmed",
+          "stem": "confirm_",
+          "prob": 0.002303
+        },
+        {
+          "word": "aid",
+          "stem": "aid_",
+          "prob": 0.002295
+        },
+        {
+          "word": "policy",
+          "stem": "polici_",
+          "prob": 0.002273
+        },
+        {
+          "word": "pay",
+          "stem": "pai_",
+          "prob": 0.002266
+        },
+        {
+          "word": "defense",
+          "stem": "e/spelling/defence",
+          "prob": 0.002266
+        },
+        {
+          "word": "surveillance",
+          "stem": "surveil_",
+          "prob": 0.00223
+        },
+        {
+          "word": "Supreme",
+          "stem": "suprem_",
+          "prob": 0.002222
+        },
+        {
+          "word": "city",
+          "stem": "citi_",
+          "prob": 0.002215
+        },
+        {
+          "word": "fight",
+          "stem": "fight_",
+          "prob": 0.00215
+        },
+        {
+          "word": "issue",
+          "stem": "issu_",
+          "prob": 0.002128
+        },
+        {
+          "word": "Eliot",
+          "stem": "eliot_",
+          "prob": 0.002128
+        },
+        {
+          "word": "George",
+          "stem": "georg_",
+          "prob": 0.002113
+        },
+        {
+          "word": "criticism",
+          "stem": "critic_",
+          "prob": 0.002106
+        },
+        {
+          "word": "same-sex",
+          "stem": "same-sex_",
+          "prob": 0.002033
+        }
+      ]
+    },
+    {
+      "_id": "topic2",
+      "_name": "Topic 2",
+      "_groupIds": [],
+      "_topicProb": 0.087619,
+      "_topicWords": [
+        {
+          "word": "police",
+          "stem": "polic_",
+          "prob": 0.015617
+        },
+        {
+          "word": "man",
+          "stem": "man_",
+          "prob": 0.010469
+        },
+        {
+          "word": "charges",
+          "stem": "charg_",
+          "prob": 0.010177
+        },
+        {
+          "word": "protests",
+          "stem": "protest_",
+          "prob": 0.009171
+        },
+        {
+          "word": "prison",
+          "stem": "prison_",
+          "prob": 0.008134
+        },
+        {
+          "word": "President",
+          "stem": "presid_",
+          "prob": 0.00811
+        },
+        {
+          "word": "arrested",
+          "stem": "arrest_",
+          "prob": 0.007967
+        },
+        {
+          "word": "attack",
+          "stem": "attack_",
+          "prob": 0.007692
+        },
+        {
+          "word": "court",
+          "stem": "court_",
+          "prob": 0.007369
+        },
+        {
+          "word": "military",
+          "stem": "militari_",
+          "prob": 0.00654
+        },
+        {
+          "word": "against",
+          "stem": "against_",
+          "prob": 0.006485
+        },
+        {
+          "word": "trial",
+          "stem": "trial_",
+          "prob": 0.006298
+        },
+        {
+          "word": "Morsi",
+          "stem": "morsi_",
+          "prob": 0.00596
+        },
+        {
+          "word": "officials",
+          "stem": "offici_",
+          "prob": 0.005939
+        },
+        {
+          "word": "Mohamed",
+          "stem": "moham_",
+          "prob": 0.005372
+        },
+        {
+          "word": "bomb",
+          "stem": "bomb_",
+          "prob": 0.005299
+        },
+        {
+          "word": "former",
+          "stem": "former_",
+          "prob": 0.005294
+        },
+        {
+          "word": "case",
+          "stem": "case_",
+          "prob": 0.00519
+        },
+        {
+          "word": "leader",
+          "stem": "leader_",
+          "prob": 0.004956
+        },
+        {
+          "word": "jail",
+          "stem": "jail_",
+          "prob": 0.004956
+        },
+        {
+          "word": "guilty",
+          "stem": "guilti_",
+          "prob": 0.004883
+        },
+        {
+          "word": "suspect",
+          "stem": "suspect_",
+          "prob": 0.004826
+        },
+        {
+          "word": "sentenced",
+          "stem": "sentenc_",
+          "prob": 0.00479
+        },
+        {
+          "word": "supporters",
+          "stem": "support_",
+          "prob": 0.004405
+        },
+        {
+          "word": "accused",
+          "stem": "accus_",
+          "prob": 0.004374
+        },
+        {
+          "word": "forces",
+          "stem": "forc_",
+          "prob": 0.004332
+        },
+        {
+          "word": "Muslim",
+          "stem": "muslim_",
+          "prob": 0.004254
+        },
+        {
+          "word": "army",
+          "stem": "armi_",
+          "prob": 0.004212
+        },
+        {
+          "word": "convicted",
+          "stem": "convict_",
+          "prob": 0.004072
+        },
+        {
+          "word": "judge",
+          "stem": "judg_",
+          "prob": 0.003932
+        },
+        {
+          "word": "state",
+          "stem": "state_",
+          "prob": 0.003802
+        },
+        {
+          "word": "security",
+          "stem": "secur_",
+          "prob": 0.003776
+        },
+        {
+          "word": "face",
+          "stem": "face_",
+          "prob": 0.00375
+        },
+        {
+          "word": "investigation",
+          "stem": "investig_",
+          "prob": 0.003625
+        },
+        {
+          "word": "shooting",
+          "stem": "shoot_",
+          "prob": 0.003614
+        },
+        {
+          "word": "violence",
+          "stem": "violenc_",
+          "prob": 0.003557
+        },
+        {
+          "word": "defense",
+          "stem": "e/spelling/defence",
+          "prob": 0.003495
+        },
+        {
+          "word": "government",
+          "stem": "govern_",
+          "prob": 0.003399
+        },
+        {
+          "word": "prosecutors",
+          "stem": "prosecutor_",
+          "prob": 0.003375
+        },
+        {
+          "word": "Cairo",
+          "stem": "cairo_",
+          "prob": 0.00336
+        },
+        {
+          "word": "Islamist",
+          "stem": "islamist_",
+          "prob": 0.003266
+        },
+        {
+          "word": "Boston",
+          "stem": "boston_",
+          "prob": 0.003219
+        },
+        {
+          "word": "Kerry",
+          "stem": "kerri_",
+          "prob": 0.003209
+        },
+        {
+          "word": "victims",
+          "stem": "victim_",
+          "prob": 0.003188
+        },
+        {
+          "word": "war",
+          "stem": "war_",
+          "prob": 0.003141
+        },
+        {
+          "word": "shot",
+          "stem": "shot_",
+          "prob": 0.003136
+        },
+        {
+          "word": "woman",
+          "stem": "woman_",
+          "prob": 0.00312
+        },
+        {
+          "word": "released",
+          "stem": "releas_",
+          "prob": 0.003094
+        },
+        {
+          "word": "rape",
+          "stem": "rape_",
+          "prob": 0.002995
+        },
+        {
+          "word": "soldier",
+          "stem": "soldier_",
+          "prob": 0.002995
+        },
+        {
+          "word": "Brotherhood",
+          "stem": "brotherhood_",
+          "prob": 0.00299
+        },
+        {
+          "word": "city",
+          "stem": "citi_",
+          "prob": 0.002969
+        },
+        {
+          "word": "verdict",
+          "stem": "verdict_",
+          "prob": 0.002949
+        },
+        {
+          "word": "alleged",
+          "stem": "alleg_",
+          "prob": 0.002907
+        },
+        {
+          "word": "group",
+          "stem": "group_",
+          "prob": 0.002902
+        },
+        {
+          "word": "authorities",
+          "stem": "author_",
+          "prob": 0.002897
+        },
+        {
+          "word": "rebels",
+          "stem": "rebel_",
+          "prob": 0.002889
+        },
+        {
+          "word": "peace",
+          "stem": "peac_",
+          "prob": 0.002798
+        },
+        {
+          "word": "clashes",
+          "stem": "clash_",
+          "prob": 0.002787
+        },
+        {
+          "word": "fire",
+          "stem": "fire_",
+          "prob": 0.002704
+        },
+        {
+          "word": "women",
+          "stem": "women_",
+          "prob": 0.002689
+        },
+        {
+          "word": "home",
+          "stem": "home_",
+          "prob": 0.002668
+        },
+        {
+          "word": "Florida",
+          "stem": "florida_",
+          "prob": 0.002642
+        },
+        {
+          "word": "held",
+          "stem": "held_",
+          "prob": 0.002637
+        },
+        {
+          "word": "teenager",
+          "stem": "teenag_",
+          "prob": 0.002595
+        },
+        {
+          "word": "ousted",
+          "stem": "oust_",
+          "prob": 0.002504
+        },
+        {
+          "word": "abuse",
+          "stem": "abus_",
+          "prob": 0.002496
+        },
+        {
+          "word": "jury",
+          "stem": "juri_",
+          "prob": 0.002366
+        },
+        {
+          "word": "told",
+          "stem": "told_",
+          "prob": 0.002351
+        },
+        {
+          "word": "armed",
+          "stem": "arm_",
+          "prob": 0.002319
+        },
+        {
+          "word": "opposition",
+          "stem": "opposit_",
+          "prob": 0.002291
+        },
+        {
+          "word": "assault",
+          "stem": "assault_",
+          "prob": 0.002283
+        },
+        {
+          "word": "nation",
+          "stem": "nation_",
+          "prob": 0.002283
+        },
+        {
+          "word": "sexual",
+          "stem": "sexual_",
+          "prob": 0.002247
+        },
+        {
+          "word": "gun",
+          "stem": "gun_",
+          "prob": 0.002226
+        },
+        {
+          "word": "criminal",
+          "stem": "crimin_",
+          "prob": 0.002189
+        },
+        {
+          "word": "lawyer",
+          "stem": "lawyer_",
+          "prob": 0.002184
+        },
+        {
+          "word": "men",
+          "stem": "men_",
+          "prob": 0.002163
+        },
+        {
+          "word": "life",
+          "stem": "life_",
+          "prob": 0.002122
+        },
+        {
+          "word": "threat",
+          "stem": "threat_",
+          "prob": 0.002122
+        },
+        {
+          "word": "crimes",
+          "stem": "crime_",
+          "prob": 0.002085
+        },
+        {
+          "word": "activists",
+          "stem": "activist_",
+          "prob": 0.002044
+        },
+        {
+          "word": "Justice",
+          "stem": "justic_",
+          "prob": 0.002028
+        },
+        {
+          "word": "girl",
+          "stem": "girl_",
+          "prob": 0.00195
+        },
+        {
+          "word": "injured",
+          "stem": "injur_",
+          "prob": 0.00195
+        },
+        {
+          "word": "political",
+          "stem": "polit_",
+          "prob": 0.001929
+        },
+        {
+          "word": "jurors",
+          "stem": "juror_",
+          "prob": 0.001924
+        },
+        {
+          "word": "aiding",
+          "stem": "aid_",
+          "prob": 0.001924
+        },
+        {
+          "word": "Bulger",
+          "stem": "bulger_",
+          "prob": 0.001924
+        },
+        {
+          "word": "Bradley",
+          "stem": "bradlei_",
+          "prob": 0.001924
+        },
+        {
+          "word": "terror",
+          "stem": "terror_",
+          "prob": 0.001909
+        },
+        {
+          "word": "ordered",
+          "stem": "order_",
+          "prob": 0.001893
+        },
+        {
+          "word": "wounded",
+          "stem": "wound_",
+          "prob": 0.001888
+        },
+        {
+          "word": "explosion",
+          "stem": "explos_",
+          "prob": 0.001883
+        },
+        {
+          "word": "weapons",
+          "stem": "weapon_",
+          "prob": 0.001883
+        },
+        {
+          "word": "family",
+          "stem": "famili_",
+          "prob": 0.001836
+        },
+        {
+          "word": "rights",
+          "stem": "right_",
+          "prob": 0.00182
+        },
+        {
+          "word": "night",
+          "stem": "night_",
+          "prob": 0.001815
+        },
+        {
+          "word": "claims",
+          "stem": "claim_",
+          "prob": 0.001805
+        },
+        {
+          "word": "sex",
+          "stem": "sex_",
+          "prob": 0.001789
+        }
+      ]
+    },
+    {
+      "_id": "topic3",
+      "_name": "Topic 3",
+      "_groupIds": [],
+      "_topicProb": 0.065167,
+      "_topicWords": [
+        {
+          "word": "app",
+          "stem": "app_",
+          "prob": 0.014941
+        },
+        {
+          "word": "mobile",
+          "stem": "mobil_",
+          "prob": 0.011061
+        },
+        {
+          "word": "smartphone",
+          "stem": "smartphon_",
+          "prob": 0.008733
+        },
+        {
+          "word": "users",
+          "stem": "user_",
+          "prob": 0.008593
+        },
+        {
+          "word": "game",
+          "stem": "game_",
+          "prob": 0.007936
+        },
+        {
+          "word": "phone",
+          "stem": "phone_",
+          "prob": 0.007894
+        },
+        {
+          "word": "million",
+          "stem": "million_",
+          "prob": 0.007579
+        },
+        {
+          "word": "devices",
+          "stem": "devic_",
+          "prob": 0.007432
+        },
+        {
+          "word": "social",
+          "stem": "social_",
+          "prob": 0.0069
+        },
+        {
+          "word": "iPhone",
+          "stem": "iphon_",
+          "prob": 0.006866
+        },
+        {
+          "word": "service",
+          "stem": "servic_",
+          "prob": 0.006782
+        },
+        {
+          "word": "launch",
+          "stem": "launch_",
+          "prob": 0.006356
+        },
+        {
+          "word": "online",
+          "stem": "onlin_",
+          "prob": 0.006208
+        },
+        {
+          "word": "Internet",
+          "stem": "internet_",
+          "prob": 0.006076
+        },
+        {
+          "word": "video",
+          "stem": "video_",
+          "prob": 0.006048
+        },
+        {
+          "word": "startup",
+          "stem": "startup_",
+          "prob": 0.005957
+        },
+        {
+          "word": "developers",
+          "stem": "develop_",
+          "prob": 0.005649
+        },
+        {
+          "word": "Android",
+          "stem": "android_",
+          "prob": 0.005642
+        },
+        {
+          "word": "data",
+          "stem": "data_",
+          "prob": 0.005076
+        },
+        {
+          "word": "media",
+          "stem": "media_",
+          "prob": 0.005055
+        },
+        {
+          "word": "market",
+          "stem": "market_",
+          "prob": 0.004922
+        },
+        {
+          "word": "ad",
+          "stem": "ad_",
+          "prob": 0.004852
+        },
+        {
+          "word": "Web",
+          "stem": "web_",
+          "prob": 0.004838
+        },
+        {
+          "word": "business",
+          "stem": "busi_",
+          "prob": 0.004831
+        },
+        {
+          "word": "network",
+          "stem": "network_",
+          "prob": 0.004824
+        },
+        {
+          "word": "Samsung",
+          "stem": "samsung_",
+          "prob": 0.004573
+        },
+        {
+          "word": "technology",
+          "stem": "technolog_",
+          "prob": 0.004565
+        },
+        {
+          "word": "computer",
+          "stem": "comput_",
+          "prob": 0.004531
+        },
+        {
+          "word": "site",
+          "stem": "site_",
+          "prob": 0.004433
+        },
+        {
+          "word": "tablets",
+          "stem": "tablet_",
+          "prob": 0.004216
+        },
+        {
+          "word": "customers",
+          "stem": "custom_",
+          "prob": 0.004076
+        },
+        {
+          "word": "software",
+          "stem": "softwar_",
+          "prob": 0.004062
+        },
+        {
+          "word": "Twitter",
+          "stem": "twitter_",
+          "prob": 0.003964
+        },
+        {
+          "word": "TV",
+          "stem": "tv_",
+          "prob": 0.003936
+        },
+        {
+          "word": "sales",
+          "stem": "sale_",
+          "prob": 0.003874
+        },
+        {
+          "word": "store",
+          "stem": "store_",
+          "prob": 0.003776
+        },
+        {
+          "word": "tech",
+          "stem": "tech_",
+          "prob": 0.003636
+        },
+        {
+          "word": "products",
+          "stem": "product_",
+          "prob": 0.003545
+        },
+        {
+          "word": "search",
+          "stem": "search_",
+          "prob": 0.00351
+        },
+        {
+          "word": "Nokia",
+          "stem": "nokia_",
+          "prob": 0.003496
+        },
+        {
+          "word": "Windows",
+          "stem": "window_",
+          "prob": 0.003475
+        },
+        {
+          "word": "platform",
+          "stem": "platform_",
+          "prob": 0.003307
+        },
+        {
+          "word": "buy",
+          "stem": "bui_",
+          "prob": 0.003279
+        },
+        {
+          "word": "iPad",
+          "stem": "ipad_",
+          "prob": 0.003237
+        },
+        {
+          "word": "plans",
+          "stem": "plan_",
+          "prob": 0.003146
+        },
+        {
+          "word": "revenue",
+          "stem": "revenu_",
+          "prob": 0.003139
+        },
+        {
+          "word": "provider",
+          "stem": "provid_",
+          "prob": 0.003083
+        },
+        {
+          "word": "work",
+          "stem": "work_",
+          "prob": 0.003
+        },
+        {
+          "word": "system",
+          "stem": "system_",
+          "prob": 0.002993
+        },
+        {
+          "word": "design",
+          "stem": "design_",
+          "prob": 0.002965
+        },
+        {
+          "word": "hackers",
+          "stem": "e/collocation/hacking",
+          "prob": 0.002965
+        },
+        {
+          "word": "feature",
+          "stem": "featur_",
+          "prob": 0.002958
+        },
+        {
+          "word": "raised",
+          "stem": "rais_",
+          "prob": 0.002944
+        },
+        {
+          "word": "CEO",
+          "stem": "ceo_",
+          "prob": 0.002846
+        },
+        {
+          "word": "digital",
+          "stem": "digit_",
+          "prob": 0.002825
+        },
+        {
+          "word": "offer",
+          "stem": "offer_",
+          "prob": 0.002769
+        },
+        {
+          "word": "help",
+          "stem": "help_",
+          "prob": 0.002755
+        },
+        {
+          "word": "content",
+          "stem": "content_",
+          "prob": 0.002748
+        },
+        {
+          "word": "let",
+          "stem": "let_",
+          "prob": 0.002678
+        },
+        {
+          "word": "post",
+          "stem": "post_",
+          "prob": 0.002671
+        },
+        {
+          "word": "advertising",
+          "stem": "advertis_",
+          "prob": 0.002664
+        },
+        {
+          "word": "iOS",
+          "stem": "io_",
+          "prob": 0.00265
+        },
+        {
+          "word": "access",
+          "stem": "access_",
+          "prob": 0.002608
+        },
+        {
+          "word": "Wireless",
+          "stem": "wireless_",
+          "prob": 0.002594
+        },
+        {
+          "word": "released",
+          "stem": "releas_",
+          "prob": 0.002586
+        },
+        {
+          "word": "selling",
+          "stem": "sell_",
+          "prob": 0.002559
+        },
+        {
+          "word": "operating",
+          "stem": "oper_",
+          "prob": 0.002503
+        },
+        {
+          "word": "security",
+          "stem": "secur_",
+          "prob": 0.002503
+        },
+        {
+          "word": "quarter",
+          "stem": "quarter_",
+          "prob": 0.002489
+        },
+        {
+          "word": "deal",
+          "stem": "deal_",
+          "prob": 0.00244
+        },
+        {
+          "word": "Ventures",
+          "stem": "ventur_",
+          "prob": 0.00244
+        },
+        {
+          "word": "billion",
+          "stem": "billion_",
+          "prob": 0.002433
+        },
+        {
+          "word": "website",
+          "stem": "websit_",
+          "prob": 0.002433
+        },
+        {
+          "word": "X",
+          "stem": "x_",
+          "prob": 0.002433
+        },
+        {
+          "word": "free",
+          "stem": "free_",
+          "prob": 0.002426
+        },
+        {
+          "word": "big",
+          "stem": "big_",
+          "prob": 0.002412
+        },
+        {
+          "word": "maker",
+          "stem": "maker_",
+          "prob": 0.002384
+        },
+        {
+          "word": "consumers",
+          "stem": "consum_",
+          "prob": 0.002342
+        },
+        {
+          "word": "cloud",
+          "stem": "cloud_",
+          "prob": 0.002314
+        },
+        {
+          "word": "Glass",
+          "stem": "glass_",
+          "prob": 0.002293
+        },
+        {
+          "word": "update",
+          "stem": "updat_",
+          "prob": 0.002272
+        },
+        {
+          "word": "allows",
+          "stem": "allow_",
+          "prob": 0.002265
+        },
+        {
+          "word": "BlackBerry",
+          "stem": "blackberri_",
+          "prob": 0.00223
+        },
+        {
+          "word": "photos",
+          "stem": "photo_",
+          "prob": 0.002209
+        },
+        {
+          "word": "version",
+          "stem": "version_",
+          "prob": 0.002202
+        },
+        {
+          "word": "price",
+          "stem": "price_",
+          "prob": 0.002202
+        },
+        {
+          "word": "according",
+          "stem": "accord_",
+          "prob": 0.002154
+        },
+        {
+          "word": "program",
+          "stem": "program_",
+          "prob": 0.002147
+        },
+        {
+          "word": "Moto",
+          "stem": "moto_",
+          "prob": 0.002133
+        },
+        {
+          "word": "create",
+          "stem": "creat_",
+          "prob": 0.002112
+        },
+        {
+          "word": "Zynga",
+          "stem": "zynga_",
+          "prob": 0.002112
+        },
+        {
+          "word": "PC",
+          "stem": "pc_",
+          "prob": 0.00207
+        },
+        {
+          "word": "camera",
+          "stem": "camera_",
+          "prob": 0.002049
+        },
+        {
+          "word": "email",
+          "stem": "email_",
+          "prob": 0.002021
+        },
+        {
+          "word": "available",
+          "stem": "avail_",
+          "prob": 0.002014
+        },
+        {
+          "word": "engine",
+          "stem": "engin_",
+          "prob": 0.001972
+        },
+        {
+          "word": "screen",
+          "stem": "screen_",
+          "prob": 0.001965
+        },
+        {
+          "word": "Instagram",
+          "stem": "instagram_",
+          "prob": 0.001944
+        },
+        {
+          "word": "Verizon",
+          "stem": "verizon_",
+          "prob": 0.001909
+        },
+        {
+          "word": "acquired",
+          "stem": "acquir_",
+          "prob": 0.001909
+        }
+      ]
+    },
+    {
+      "_id": "topic4",
+      "_name": "Topic 4",
+      "_groupIds": [],
+      "_topicProb": 0.079348,
+      "_topicWords": [
+        {
+          "word": "star",
+          "stem": "star_",
+          "prob": 0.014467
+        },
+        {
+          "word": "film",
+          "stem": "film_",
+          "prob": 0.008363
+        },
+        {
+          "word": "baby",
+          "stem": "babi_",
+          "prob": 0.007425
+        },
+        {
+          "word": "music",
+          "stem": "music_",
+          "prob": 0.005768
+        },
+        {
+          "word": "movie",
+          "stem": "movi_",
+          "prob": 0.005607
+        },
+        {
+          "word": "royal",
+          "stem": "royal_",
+          "prob": 0.005191
+        },
+        {
+          "word": "actor",
+          "stem": "actor_",
+          "prob": 0.005157
+        },
+        {
+          "word": "celebrity",
+          "stem": "celebr_",
+          "prob": 0.004521
+        },
+        {
+          "word": "singer",
+          "stem": "singer_",
+          "prob": 0.004381
+        },
+        {
+          "word": "play",
+          "stem": "plai_",
+          "prob": 0.00433
+        },
+        {
+          "word": "fans",
+          "stem": "fan_",
+          "prob": 0.004215
+        },
+        {
+          "word": "Prince",
+          "stem": "princ_",
+          "prob": 0.004077
+        },
+        {
+          "word": "TV",
+          "stem": "tv_",
+          "prob": 0.004074
+        },
+        {
+          "word": "actress",
+          "stem": "actress_",
+          "prob": 0.003957
+        },
+        {
+          "word": "night",
+          "stem": "night_",
+          "prob": 0.003922
+        },
+        {
+          "word": "Monteith",
+          "stem": "monteith_",
+          "prob": 0.003859
+        },
+        {
+          "word": "love",
+          "stem": "love_",
+          "prob": 0.003675
+        },
+        {
+          "word": "festival",
+          "stem": "festiv_",
+          "prob": 0.00366
+        },
+        {
+          "word": "Kate",
+          "stem": "kate_",
+          "prob": 0.003635
+        },
+        {
+          "word": "Cory",
+          "stem": "cori_",
+          "prob": 0.003595
+        },
+        {
+          "word": "Mandela",
+          "stem": "mandela_",
+          "prob": 0.003509
+        },
+        {
+          "word": "Glee",
+          "stem": "glee_",
+          "prob": 0.00329
+        },
+        {
+          "word": "series",
+          "stem": "seri_",
+          "prob": 0.003066
+        },
+        {
+          "word": "video",
+          "stem": "video_",
+          "prob": 0.003061
+        },
+        {
+          "word": "Hollywood",
+          "stem": "hollywood_",
+          "prob": 0.002998
+        },
+        {
+          "word": "family",
+          "stem": "famili_",
+          "prob": 0.002998
+        },
+        {
+          "word": "hospital",
+          "stem": "hospit_",
+          "prob": 0.002923
+        },
+        {
+          "word": "William",
+          "stem": "william_",
+          "prob": 0.002837
+        },
+        {
+          "word": "birth",
+          "stem": "birth_",
+          "prob": 0.002779
+        },
+        {
+          "word": "wife",
+          "stem": "wife_",
+          "prob": 0.002774
+        },
+        {
+          "word": "best",
+          "stem": "best_",
+          "prob": 0.002601
+        },
+        {
+          "word": "revealed",
+          "stem": "reveal_",
+          "prob": 0.002561
+        },
+        {
+          "word": "daughter",
+          "stem": "daughter_",
+          "prob": 0.002475
+        },
+        {
+          "word": "London",
+          "stem": "london_",
+          "prob": 0.002469
+        },
+        {
+          "word": "performance",
+          "stem": "perform_",
+          "prob": 0.002383
+        },
+        {
+          "word": "wedding",
+          "stem": "wed_",
+          "prob": 0.002331
+        },
+        {
+          "word": "girl",
+          "stem": "girl_",
+          "prob": 0.002326
+        },
+        {
+          "word": "album",
+          "stem": "album_",
+          "prob": 0.002326
+        },
+        {
+          "word": "tour",
+          "stem": "tour_",
+          "prob": 0.002291
+        },
+        {
+          "word": "season",
+          "stem": "season_",
+          "prob": 0.002263
+        },
+        {
+          "word": "return",
+          "stem": "return_",
+          "prob": 0.002251
+        },
+        {
+          "word": "friends",
+          "stem": "friend_",
+          "prob": 0.00224
+        },
+        {
+          "word": "former",
+          "stem": "former_",
+          "prob": 0.002228
+        },
+        {
+          "word": "hit",
+          "stem": "hit_",
+          "prob": 0.002182
+        },
+        {
+          "word": "son",
+          "stem": "son_",
+          "prob": 0.002182
+        },
+        {
+          "word": "life",
+          "stem": "life_",
+          "prob": 0.002165
+        },
+        {
+          "word": "Nelson",
+          "stem": "nelson_",
+          "prob": 0.002119
+        },
+        {
+          "word": "final",
+          "stem": "final_",
+          "prob": 0.002067
+        },
+        {
+          "word": "Awards",
+          "stem": "award_",
+          "prob": 0.002067
+        },
+        {
+          "word": "comedy",
+          "stem": "comedi_",
+          "prob": 0.002062
+        },
+        {
+          "word": "Twitter",
+          "stem": "twitter_",
+          "prob": 0.00205
+        },
+        {
+          "word": "summer",
+          "stem": "summer_",
+          "prob": 0.00205
+        },
+        {
+          "word": "drama",
+          "stem": "drama_",
+          "prob": 0.00205
+        },
+        {
+          "word": "husband",
+          "stem": "husband_",
+          "prob": 0.002044
+        },
+        {
+          "word": "song",
+          "stem": "song_",
+          "prob": 0.002033
+        },
+        {
+          "word": "host",
+          "stem": "host_",
+          "prob": 0.00201
+        },
+        {
+          "word": "dress",
+          "stem": "dress_",
+          "prob": 0.001981
+        },
+        {
+          "word": "stage",
+          "stem": "stage_",
+          "prob": 0.001981
+        },
+        {
+          "word": "Simon",
+          "stem": "simon_",
+          "prob": 0.00197
+        },
+        {
+          "word": "Justin",
+          "stem": "justin_",
+          "prob": 0.001958
+        },
+        {
+          "word": "Queen",
+          "stem": "queen_",
+          "prob": 0.001958
+        },
+        {
+          "word": "Duchess",
+          "stem": "duchess_",
+          "prob": 0.001947
+        },
+        {
+          "word": "name",
+          "stem": "name_",
+          "prob": 0.001929
+        },
+        {
+          "word": "married",
+          "stem": "marri_",
+          "prob": 0.001929
+        },
+        {
+          "word": "role",
+          "stem": "role_",
+          "prob": 0.001918
+        },
+        {
+          "word": "birthday",
+          "stem": "birthdai_",
+          "prob": 0.001912
+        },
+        {
+          "word": "premiere",
+          "stem": "premier_",
+          "prob": 0.001901
+        },
+        {
+          "word": "concert",
+          "stem": "concert_",
+          "prob": 0.001878
+        },
+        {
+          "word": "pop",
+          "stem": "pop_",
+          "prob": 0.001878
+        },
+        {
+          "word": "Fox",
+          "stem": "fox_",
+          "prob": 0.001843
+        },
+        {
+          "word": "George",
+          "stem": "georg_",
+          "prob": 0.00182
+        },
+        {
+          "word": "Michael",
+          "stem": "michael_",
+          "prob": 0.001815
+        },
+        {
+          "word": "couple",
+          "stem": "coupl_",
+          "prob": 0.001809
+        },
+        {
+          "word": "game",
+          "stem": "game_",
+          "prob": 0.001797
+        },
+        {
+          "word": "big",
+          "stem": "big_",
+          "prob": 0.001797
+        },
+        {
+          "word": "Middleton",
+          "stem": "middleton_",
+          "prob": 0.00178
+        },
+        {
+          "word": "Cambridge",
+          "stem": "cambridg_",
+          "prob": 0.001774
+        },
+        {
+          "word": "top",
+          "stem": "top_",
+          "prob": 0.001769
+        },
+        {
+          "word": "man",
+          "stem": "man_",
+          "prob": 0.001763
+        },
+        {
+          "word": "party",
+          "stem": "parti_",
+          "prob": 0.001746
+        },
+        {
+          "word": "weekend",
+          "stem": "weekend_",
+          "prob": 0.001728
+        },
+        {
+          "word": "appeared",
+          "stem": "appear_",
+          "prob": 0.001683
+        },
+        {
+          "word": "wearing",
+          "stem": "wear_",
+          "prob": 0.001683
+        },
+        {
+          "word": "photo",
+          "stem": "photo_",
+          "prob": 0.001665
+        },
+        {
+          "word": "join",
+          "stem": "join_",
+          "prob": 0.001665
+        },
+        {
+          "word": "watch",
+          "stem": "watch_",
+          "prob": 0.001654
+        },
+        {
+          "word": "band",
+          "stem": "band_",
+          "prob": 0.001648
+        },
+        {
+          "word": "King",
+          "stem": "king_",
+          "prob": 0.001648
+        },
+        {
+          "word": "pictures",
+          "stem": "pictur_",
+          "prob": 0.001631
+        },
+        {
+          "word": "Breaking",
+          "stem": "break_",
+          "prob": 0.001614
+        },
+        {
+          "word": "debut",
+          "stem": "debut_",
+          "prob": 0.001614
+        },
+        {
+          "word": "Jennifer",
+          "stem": "jennif_",
+          "prob": 0.001614
+        },
+        {
+          "word": "artist",
+          "stem": "artist_",
+          "prob": 0.001585
+        },
+        {
+          "word": "director",
+          "stem": "director_",
+          "prob": 0.001585
+        },
+        {
+          "word": "episode",
+          "stem": "episod_",
+          "prob": 0.001579
+        },
+        {
+          "word": "critical",
+          "stem": "critic_",
+          "prob": 0.001568
+        },
+        {
+          "word": "date",
+          "stem": "date_",
+          "prob": 0.001562
+        },
+        {
+          "word": "child",
+          "stem": "child_",
+          "prob": 0.001556
+        },
+        {
+          "word": "cast",
+          "stem": "cast_",
+          "prob": 0.00155
+        },
+        {
+          "word": "made",
+          "stem": "made_",
+          "prob": 0.001539
+        }
+      ]
+    }
+  ]
+}

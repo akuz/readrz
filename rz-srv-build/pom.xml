@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.readrz</groupId>
+  <artifactId>rz-srv-build</artifactId>
+  <version>0.0.1</version>
+  <packaging>pom</packaging>
+  <name>Readrz Server Projects Parent</name>
+  <properties>
+  	<AutoReadrzDir>../../readrz-deploy-srv/bin</AutoReadrzDir>
+  </properties>
+  <modules>
+  	<module>../db-ensure-idx</module>
+  	<module>../db-export-snaps</module>
+  	<module>../db-unescape-html</module>
+  	<module>../ontosync</module>
+  	<module>../dupfinder</module>
+  	<module>../imagscan</module>
+  	<module>../feedsget</module>
+  	<module>../indexer</module>
+  	<module>../pathcalc</module>
+  	<module>../summr</module>
+  	<module>../test-search</module>
+  	<module>../test-sentiment</module>
+  	<module>../rz-core</module>
+  	<module>../rz-math</module>
+  	<module>../rz-srv-topicalc</module>
+  </modules>
+</project>

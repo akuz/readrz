@@ -1,0 +1,87 @@
+
+div.summary2 div#summaryContents {
+	border: 0px solid Blue;
+	padding-top: 30px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+}
+div.summary2 div#summaryContents svg {
+	border: 0px solid Red;
+}
+div.summary2 div#summaryContents > div {
+	box-shadow: 0px 0px 3px #aaaaaa;
+	overflow: hidden;
+}
+div.summary2 div#summaryContents div div.node {
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+}
+div.summary2 div#summaryContents div div.node.parent {
+	border: solid 1px #eeeeee;
+	background-color: #eeeeee;
+}
+div.summary2 div#summaryContents div div.node.child {
+	border: solid 1px #dddddd;
+	background-color: #ffffff;
+}
+div.summary2 div#summaryContents div div.node > span.parent {
+	position: absolute;
+	display: block;
+	top: 0px;
+	left: 3px;
+	right: 3px;
+	height: 27px;
+	overflow: hidden;
+	padding-left: 10px;
+
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 28px;
+	
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+
+	color: #eeeeee;
+	text-shadow: 0px 0px 5px #666666;
+	
+	background-color: #222222;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	background-image: url(/img/back/dark_dotted.png);
+}
+div.summary2 div#summaryContents div div.node > span.child {
+	position: absolute;
+	display: block;
+	top: 3px;
+	left: 5px;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+
+	color: #444444;
+	text-shadow: 1px 1px 3px #dddddd;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 14px;
+}
+div.summary2 div#summaryContents div div.node > div.image {
+	position: absolute;
+	opacity: 1;
+	border-radius: 0px;
+	top: 10px;
+	left: 10px;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+	background-position: center 30px;
+	background-repeat: no-repeat;
+	font-size: 30px;
+	color: #778899;
+	font-weight: 400;
+	text-shadow: 1px 1px 3px #dddddd;
+	text-align: left;
+	text-indent: 5px;
+}

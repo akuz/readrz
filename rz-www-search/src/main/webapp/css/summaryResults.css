@@ -1,0 +1,72 @@
+div.summary2 div.summaryElement {
+	padding: 5px 10px 5px 10px;
+	color: #880000;
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 600;
+	font-size: 12px;
+	text-align: center;
+}
+div.summary2 div.summaryResultHead {
+	display: none;
+	border: 0px solid #dddddd;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 0px;
+	background-color: #eeeeee;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+div.summary2 div.summaryResultFoot {
+	padding-top: 15px;
+	border-bottom: 1px solid #dddddd;
+	margin-bottom: 30px;
+}
+div.summary2 div.summaryResult {
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	padding: 0px 0px 0px 0px;
+	border: 1px solid #eeeeee;
+	border-top: 1px solid #dddddd;
+	border: 0px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+div.summary2 div.summaryResult div.head {
+}
+div.summary2 div.summaryResult div.head div.resultTitle {
+	font-family: 'Open Sans Condensed', Arial, Sans-Serif;
+	font-weight: 700;
+	font-size: 24px;
+	padding-bottom: 5px;
+}
+div.summary2 div.summaryResult div.head div.resultTitle em {
+	font-weight: 700;
+}
+div.summary2 div.summaryResult div.head div.resultTitle a {
+	color: #222222;
+}
+div.summary2 div.summaryResult div.head div.resultSource {
+	padding-bottom: 5px;
+	font-size: 10px;
+}
+div.summary2 div.summaryResult div.head div.resultSource a {
+	color: #888888;
+}
+div.summary2 div.summaryResult div.head div.resultDate {
+	padding-top: 10px;
+	font-weight: 400;
+	font-size: 10px;
+	color: #444444;
+}
+div.summary2 div.summaryResult div.head div.resultDate span.source {
+	border-bottom: 1px solid #888888;
+	margin-right: 10px;
+}
+div.summary2 div.summaryResult div.quote {
+	padding-top: 15px;
+	font-weight: 400;
+	font-size: 13px;
+	color: #444444;
+}
+div.summary2 div.summaryResult div.quote em {
+	font-weight: 700;
+}
+	

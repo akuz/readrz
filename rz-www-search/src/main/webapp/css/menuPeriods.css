@@ -1,0 +1,40 @@
+div.menuPeriods {
+	float: right;
+	cursor: pointer;
+
+	height: 28px;
+	margin-right: 5px;
+
+	overflow: visible;
+	text-align: right;
+
+	font-family: Verdana, Sans-Serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+div.menuPeriods div.text {
+	display: inline-block;
+	line-height: 30px;
+	padding-left: 23px;
+	padding-right: 10px;
+
+	color: #aaaaaa;
+	background-image: url(/img/period18_off.png);
+	background-repeat: no-repeat;
+	background-position: 3px 5px;
+}
+div.menuPeriods.isActive div.text {
+	color: #ffffff;
+	background-image: url(/img/period18_on.png);
+}
+div.menuPeriods.isOpen div.text {
+	color: #ffffff;
+	background-image: url(/img/period18_on.png);
+	background-color: #442222;
+	background-color: #445566;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+div.menuPeriods div.menuExt {
+	top: -2px;
+}

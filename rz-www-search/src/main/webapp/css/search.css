@@ -1,0 +1,140 @@
+
+div#search {
+}
+
+div.searchEdit {
+	position: relative;
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+	padding-top: 16px;
+	padding-bottom: 8px;
+}
+div.searchEdit > input.searchInput {
+
+	width: 360px;
+	width: 420px;
+	height: 20px;
+
+	font-size: 16px;
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+
+	padding: 5px 30px 5px 30px;
+
+	color: #222222;
+	background-color: #556677;
+	background-color: #ffffff;
+	text-shadow: 1px 1px 3px #dddddd;
+	text-shadow: 1px 1px 3px #eeeeee;
+
+	border-radius: 0px;
+	border: 1px solid #405060;
+	border: 1px solid #cccccc;
+	border-top: 1px solid #334455;
+	border-top: 1px solid #cccccc;
+	
+	background-image : url(/img/search18_white.png);
+	background-image : url(/img/search18_light.png);
+	background-position : 7px 6px;
+	background-repeat : no-repeat;
+}
+div.searchEdit > div.searchClear {
+
+	position: absolute;
+	cursor: pointer;
+	display: none;
+
+	width: 23px;
+	height: 23px;
+
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 300;
+
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+
+	border-radius: 2px;
+
+	color: #888888;
+	background-color: #eeeeee;
+}
+
+div.searchTerms {
+	border: 0px solid Blue;
+	position: relative;
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+	margin-top: 16px;
+	/*
+	padding-left: 40px;
+	background-image: url(/img/search18_light.png);
+	background-repeat: no-repeat;
+	background-position: 8px 7px;
+	*/
+}
+div.searchTerms div.searchTermBlock {
+	float: left;
+	white-space: no-break;
+	margin-bottom: 10px;
+	height: 30px;
+}
+div.searchTerms div.searchTerm {
+
+	float: left;
+	cursor: pointer;
+	margin-right: 15px;
+	
+	background-color: #bb4444;
+	background-color: #ffffff;
+	background-color: hsl(60,70%,60%);
+	border: 1px solid #bb4444;
+	border-top: 1px solid #cc5555;
+	border-bottom: 1px solid #880000;
+	border: 1px solid #cccccc;
+	border: 1px solid hsl(60,70%,45%);
+	border-radius: 2px;
+	
+	padding: 3px 10px 6px 10px;
+	padding: 4px 10px 4px 10px;
+
+	color: #ffffff;
+	color: #222222;
+	color: #000000;
+	/*
+	text-shadow: 1px 1px 3px #aa3333;
+	text-shadow: 1px 1px 3px #eeeeee;
+	*/
+	font-size: 18px;
+	font-size: 16px;
+	line-height: 30px;
+	line-height: 24px;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+div.searchTerms div.searchMore {
+
+	float: left;
+	cursor: pointer;
+
+	font-size: 12px;
+	line-height: 16px;
+	
+	margin-top: 9px;
+	margin-top: 7px;
+	margin-right: 15px;
+	padding: 3px 8px 3px 8px;
+
+	/*
+	text-shadow: 1px 1px 2px #445566;
+	text-shadow: 1px 1px 2px #dddddd;
+	*/
+
+	color: #aaaaaa;
+	color: #666666;
+	border: 1px solid #777777;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}

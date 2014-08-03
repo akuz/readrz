@@ -1,0 +1,153 @@
+
+/************/
+/*** LIST ***/
+/************/
+
+div.dataPanel div.listPanel {
+	border: 0px solid Blue;
+}
+div.dataPanel div.listPanel div.block {
+	
+	margin-top: 20px;
+	margin-bottom: 40px;
+	
+	padding-top: 25px;
+	
+	border-radius: 10px;
+	
+	background-color: #eeeeee;
+	box-shadow: 0px 0px 5px #aaaaaa;
+	box-shadow: 0px 0px 5px #667788;
+	border: 1px solid #aaaaaa;
+	border: 1px solid #667788;
+}
+
+/*************/
+/*** QUOTE ***/
+/*************/
+
+div.dataPanel div.listPanel div.mainQuote {
+	position: relative;
+	margin-left: 30px;
+	padding-bottom: 30px;
+	width: 550px;
+}
+div.dataPanel div.listPanel div.mainQuote div.title a {
+	font-family: 'Open Sans Condensed', Arial, Sans-Serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: #222222;
+}
+div.dataPanel div.listPanel div.mainQuote div.title a em {
+	font-style: normal;
+	font-weight: 700;
+}
+div.dataPanel div.listPanel div.mainQuote img {
+	margin-top: 20px;
+	border-radius: 2px;
+	border: 0px;
+}
+div.dataPanel div.listPanel div.mainQuote div.info {
+	margin-top: 15px;
+	font-size: 12px;
+}
+div.dataPanel div.listPanel div.mainQuote div.info span.source {
+	color: #222222;
+	border-bottom: 1px solid #666666;
+}
+div.dataPanel div.listPanel div.mainQuote div.info span.dateAgo {
+	color: #444444;
+	margin-left: 10px;
+}
+div.dataPanel div.listPanel div.mainQuote div.text {
+	margin-top: 15px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #222222;
+}
+div.dataPanel div.listPanel div.mainQuote div.text em {
+	font-style: normal;
+	font-weight: 700;
+}
+div.dataPanel div.listPanel div.mainQuote div.text div {
+	margin-top: 15px;
+}
+
+/****************/
+/*** KEYWORDS ***/
+/****************/
+div.dataPanel div.listPanel div.mainKeywords {
+	padding: 20px 30px 15px 30px;
+	border-top: 1px solid #c0c0c0;
+	background-color: #d7d7d7;
+	
+	background-image: url(/img/back/squared_metal.png);
+}
+div.dataPanel div.listPanel div.mainKeyword {
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 5px;
+	font-size: 14px;
+	
+	font-style: normal;
+	font-weight: 600;
+
+	color: #222222;
+	color: #004488;
+	border-bottom: 0px solid #bbbbbb;
+}
+
+/***************/
+/*** SOURCES ***/
+/***************/
+div.dataPanel div.listPanel div.mainSources {
+	padding: 0px 30px 20px 30px;
+	border-top: 0px solid #c7c7c7;
+	background-color: #d7d7d7;
+
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+	background-image: url(/img/back/squared_metal.png);
+}
+div.dataPanel div.listPanel div.mainSource {
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	
+	color: #222222;
+	border-bottom: 0px solid #aaaaaa;
+}
+div.dataPanel div.listPanel div.mainSource i {
+	color: #888888;
+	margin-left: 5px;
+}
+
+/***************/
+/*** BUTTONS ***/
+/***************/
+
+div.dataPanel div.listPanel div.mainButtons {
+	margin-left: 20px;
+	font-size: 14px;
+}
+div.dataPanel div.listPanel div.mainButtons div.more {
+	float: left;
+	cursor: pointer;
+	padding: 5px 20px 6px 20px;
+	background-color: #334455;
+	border: 0px solid #223344;
+	border-radius: 5px;
+	color: #bbbbbb;
+
+	background-image: url(/img/darken_bottom_35.png);
+	background-repeat: repeat-x;
+}
+div.dataPanel div.listPanel div.mainButtons div.more i {
+	margin-left: 5px;
+	color: #888888;
+}

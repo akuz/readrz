@@ -1,0 +1,72 @@
+
+div.dataPanel div.menuPanel {
+	position: relative;
+	overflow-x: hidden;
+
+	height: 60px;
+	margin-bottom: 5px;
+	font-weight: 400;
+	font-size: 12px;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+div.dataPanel div.menuPanel div.items {
+	position: relative;
+	overflow: hidden;
+	
+	height: 35px;
+	background-color: #334455;
+	border-radius: 5px;
+
+	background-image: url(/img/darken_bottom_35.png);
+	background-repeat: repeat-x;
+}
+div.dataPanel div.menuPanel div.item {
+	display: inline-block;
+	position: absolute;
+	cursor: pointer;
+	
+	height: 15px;
+	line-height: 15px;
+	padding: 10px;
+	white-space: nowrap;
+	
+	background-color: #444444;
+	color: #ffffff;
+
+	background-image: url(/img/darken_bottom_35.png);
+	background-repeat: repeat-x;
+}
+div.dataPanel div.menuPanel div.item div.name {
+	display: inline-block;
+}
+div.dataPanel div.menuPanel div.item div.count {
+	display: inline-block;
+	margin-left: 7px;
+	font-size: 10px;
+	color: #aaaaaa;
+}
+div.dataPanel div.menuPanel div.shift {
+	display: inline-block;
+	position: absolute;
+	cursor: pointer;
+	top: 35px;
+
+	width: 30px;
+	height: 10px;
+	padding: 3px 10px 12px 10px;
+	text-align: center;
+
+	background-color: #334455;
+	color: #cccccc;
+
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+
+	background-image: url(/img/darken_top_25.png);
+	background-repeat: repeat-x;
+}

@@ -1,0 +1,58 @@
+div.menuPeriodsTop {
+	float: left;
+	cursor: pointer;
+
+	height: 28px;
+	width: 85px;
+
+	overflow: visible;
+
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+div.menuPeriodsTop div.text {
+	display: inline-block;
+	height: 32px;
+	line-height: 30px;
+	padding-left: 8px;
+	padding-right: 10px;
+
+	color: #9097a0;
+	color: #aaaaaa;
+	text-shadow: 1px 1px 3px #103050;
+	text-shadow: 1px 1px 3px #111111;
+	/*
+	background-image: url(/img/period18_off.png);
+	background-repeat: no-repeat;
+	background-position: 3px 5px;
+	*/
+}
+div.menuPeriodsTop div.text i {
+	margin-right: 2px;
+}
+div.menuPeriodsTop div.text:hover {
+	color: #ffffff;
+	/*
+	background-image: url(/img/period18_on.png);
+	*/
+}
+div.menuPeriodsTop.isActive div.text {
+	/*
+	color: #ffffff;
+	background-image: url(/img/period18_on.png);
+	*/
+}
+div.menuPeriodsTop.isOpen div.text {
+	color: #ffffff;
+	/*
+	background-image: url(/img/period18_on.png);
+	*/
+	background-color: #556677;
+	background-color: #884444;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+div.menuPeriodsTop div.menuExt {
+	top: -2px;
+}

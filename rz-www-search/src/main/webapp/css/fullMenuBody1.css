@@ -1,0 +1,116 @@
+div.fullMenuBody1 {
+	font-family: 'Open Sans', Verdana, Sans-Serif;
+	font-weight: 400;
+}
+
+div.fullMenuBody1 div.item {
+	margin-bottom: 5px;
+}
+
+div.fullMenuBody1 div.item div.head {
+	white-space: nowrap;
+	border: 1px solid #ffffff;
+	border-radius: 2px;
+	height: 31px;
+}
+div.fullMenuBody1 div.item div.head div.text {
+	float: left;
+	height: 30px;
+	padding-right: 2px;
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #444444;
+}
+div.fullMenuBody1 div.item div.head div.count {
+	float: left;
+	margin-top: 6px;
+	margin-left: 10px;
+	padding: 0px 5px 0px 5px;
+	font-size: 10px;
+	line-height: 20px;
+	color: #555555;
+	background-color: #eeeeee;
+	border-radius: 2px;
+	max-width: 40px;
+	overflow: hidden;
+}
+
+div.fullMenuBody1 div.item.isActive > a > div.head {
+	background-color: #eeeeee;
+	border: 1px solid #e7e7e7;
+	border-top: 1px solid #dddddd;
+}
+div.fullMenuBody1 div.item.isActive > a > div.head > div.text {
+	text-shadow: 1px 1px 2px #cccccc;
+}
+div.fullMenuBody1 div.item.isActive > a > div.head > div.count {
+	background-color: #dddddd;
+	text-shadow: 1px 1px 2px #bbbbbb;
+}
+
+div.fullMenuBody1 div.item.isChildActive > a > div.head {
+	background-color: #eeeeee;
+	border: 1px solid #e7e7e7;
+	border-top: 1px solid #dddddd;
+}
+div.fullMenuBody1 div.item.isChildActive > a > div.head > div.text {
+	text-shadow: 1px 1px 2px #cccccc;
+}
+div.fullMenuBody1 div.item.isChildActive > a > div.head > div.count {
+	background-color: #dddddd;
+	text-shadow: 1px 1px 2px #bbbbbb;
+}
+
+div.fullMenuBody1 div.item div.head div.bullet {
+	float: left;
+	user-select: none;
+	width: 20px;
+	height: 30px;
+
+	background-image: url(/img/arrow20_c_aa.png);
+	background-repeat: no-repeat;
+	background-position: 2px 5px;
+}
+div.fullMenuBody1 div.item.hasChildren > a > div.head > div.bullet {
+	cursor: pointer;
+	background-image: url(/img/arrow20_r_aa.png);
+	background-repeat: no-repeat;
+}
+div.fullMenuBody1 div.item.hasChildren.isExpanded > a > div.head > div.bullet {
+	cursor: pointer;
+	background-image: url(/img/arrow20_d_aa.png);
+	background-repeat: no-repeat;
+	background-position: 2px 6px;
+}
+
+div.fullMenuBody1 div.item.level1 div.head div.text {
+	max-width: 140px;
+}
+div.fullMenuBody1 div.item.level2 div.head div.text {
+	max-width: 120px;
+}
+div.fullMenuBody1 div.item.level3 div.head div.text {
+	max-width: 100px;
+}
+div.fullMenuBody1 div.item.level4 div.head div.text {
+	max-width: 80px;
+}
+div.fullMenuBody1 div.item.level5 div.head div.text {
+	max-width: 60px;
+}
+
+div.fullMenuBody1 div.item div.children {
+	display: none;
+	padding-left: 9px;
+	margin-top: 5px;
+	margin-left: 11px;
+	margin-bottom: 10px;
+	border-left: 1px dotted #cccccc;
+}
+div.fullMenuBody1 div.item.isExpanded > div.children {
+	display: block;
+}

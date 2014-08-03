@@ -1,0 +1,170 @@
+
+div.btnStar {
+	float: right;
+	cursor: pointer;
+	height: 18px;
+	width: 18px;
+	margin-top: 5px;
+	margin-right: 5px;
+	background-image: url(/img/star18_off.png);
+	background-repeat: no-repeat;
+}
+div.btnStar:hover {
+	background-image: url(/img/star18_on.png);
+	background-repeat: no-repeat;
+}
+
+div.starPanel {
+	display: none;
+	position: absolute;
+	padding-top: 10px;
+	padding-left: 20px;
+	z-index: 2;
+	top: 29px;
+	left: 0px;
+	width: 280px;
+	height: 200px;
+	overflow: visible;
+	background-color: #ffffdd;
+	border: 0px solid #880000;
+	background-image: url(/img/arrow32B.png);
+	background-repeat: no-repeat;
+	background-position: 270px -10px;
+	
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	
+	-moz-box-shadow: 0px 4px 6px #444444;
+	-webkit-box-shadow: 0px 4px 6px #444444;
+	box-shadow: 0px 4px 6px #444444;
+}
+
+div.starPanel div.starTitle {
+	font-family: Verdana, Sans-Serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #880000;
+	line-height: 20px;
+	margin-top: 5px;
+}
+
+div.starPanel div.starText {
+	clear: both;
+	margin-top: 10px;
+	margin-right: 10px;
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	color: #444444;
+}
+div.starPanel div.nameError {
+	display: none;
+	clear: both;
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	color: #bb0000;
+}
+div.starPanel div.starText a {
+	color: #2222ff;
+}
+div.starPanel div.addButton {
+	cursor: pointer;
+	float: left;
+	margin-left: 10px;
+	line-height: 22px;
+	padding: 2px 10px 1px 10px;
+	border-radius: 2px;
+	color: #ffffff;
+	background-color: #222288;
+}
+div.starPanel input.tabName {
+
+	float: left;
+
+	height: 20px;
+	width: 125px;
+
+	padding-top: 1px;
+	padding-left: 5px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+
+	font-family: Verdana, Sans-Serif;
+	font-size: 14px;
+
+	color: #444444;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+}
+div.starPanel div.loadingIcon {
+	margin-top: 20px;
+	height: 25px;
+	width: 25px;
+	background-image: url(/img/loadingBlack.gif);
+	background-repeat: no-repeat;
+	background-position: 5px 7px;
+	
+	font-family: Verdana, Sans-Serif;
+	font-size: 12px;
+	line-height: 25px;
+	color: #888888;
+	padding-left: 30px;
+}
+div.starPanel div.leftButton {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	width: 35px;
+	cursor: pointer;
+	height: 30px;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 10px;
+	color: #ffffff;
+	background-color: #222288;
+}
+div.starPanel div.rightButton {
+	position: absolute;
+	left: 65px;
+	bottom: 20px;
+	width: 35px;
+	cursor: pointer;
+	height: 30px;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 10px;
+	color: #ffffff;
+	background-color: #222288;
+}
+div.starPanel div.disabledButton {
+	background-color: #bbbbbb;
+	cursor: default;
+}
+div.starPanel div.deleteButton {
+	position: absolute;
+	left: 110px;
+	bottom: 20px;
+	cursor: pointer;
+	height: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 2px;
+	font-size: 12px;
+	color: #ffffff;
+	background-color: #882222;
+}
+div.starPanel div.closeButton {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+	line-height: 25px;
+	padding: 2px 10px 2px 10px;
+	border-radius: 2px;
+	color: #ffffff;
+	background-color: #000000;
+}
