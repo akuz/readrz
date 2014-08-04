@@ -12,17 +12,17 @@
   	<module>../db-ensure-idx</module>
   	<module>../db-export-snaps</module>
   	<module>../db-unescape-html</module>
-  	<module>../ontosync</module>
-  	<module>../dupfinder</module>
-  	<module>../imagscan</module>
-  	<module>../feedsget</module>
-  	<module>../indexer</module>
-  	<module>../pathcalc</module>
-  	<module>../summr</module>
-  	<module>../test-search</module>
-  	<module>../test-sentiment</module>
   	<module>../rz-core</module>
   	<module>../rz-math</module>
   	<module>../rz-srv-topicalc</module>
+  	<module>../rz-srv-ontosync</module>
+  	<module>../rz-srv-dupfinder</module>
+  	<module>../rz-srv-imagscan</module>
+  	<module>../rz-srv-feedsget</module>
+  	<module>../rz-srv-indexer</module>
+  	<module>../rz-srv-pathcalc</module>
+  	<module>../rz-srv-summr</module>
+  	<module>../test-search</module>
+  	<module>../test-sentiment</module>
   </modules>
 </project>
