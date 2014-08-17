@@ -4,6 +4,5 @@ appengine-generated
 *.settings
 *.log
 target
-data
 bin
 lib
