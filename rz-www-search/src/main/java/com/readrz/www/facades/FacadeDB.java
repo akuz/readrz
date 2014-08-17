@@ -36,8 +36,7 @@ public final class FacadeDB {
 
 					MongoClientOptions options
 						= new MongoClientOptions.Builder()
-							.autoConnectRetry(true)
-							.maxAutoConnectRetryTime(3000)
+							.connectTimeout(3000)
 							.build();
 					
 					ServerAddress address;

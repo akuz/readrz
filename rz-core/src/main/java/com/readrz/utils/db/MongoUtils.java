@@ -3,7 +3,6 @@ package com.readrz.utils.db;
 import org.bson.types.ObjectId;
 
 import com.mongodb.BasicDBObject;
-import com.mongodb.CommandResult;
 import com.mongodb.DBCollection;
 import com.mongodb.DBObject;
 import com.mongodb.WriteConcern;
@@ -22,8 +21,7 @@ public final class MongoUtils {
 	public final static boolean upsert(DBCollection coll, DBObject q, DBObject dbo, boolean ensureId) {
 
 		WriteResult wr = coll.update(q, dbo, true, false, WriteConcern.ACKNOWLEDGED);
-		CommandResult cr = wr.getLastError();
-		boolean updatedExisting = cr.getBoolean(MongoUtils.updatedExisting);
+		boolean updatedExisting = wr.isUpdateOfExisting();
 		
 		if (ensureId) {
 			if (updatedExisting) {
@@ -35,7 +33,7 @@ public final class MongoUtils {
 				dbo.put(MongoUtils._id, o.get(MongoUtils._id));
 				
 			} else {
-				ObjectId upserted = cr.getObjectId(MongoUtils.upserted);
+				ObjectId upserted = (ObjectId) wr.getUpsertedId();
 				dbo.put(MongoUtils._id, upserted);
 			}
 		}
