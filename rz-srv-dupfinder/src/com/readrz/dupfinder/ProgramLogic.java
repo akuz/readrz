@@ -122,7 +122,7 @@ public final class ProgramLogic {
 					lastCheckDate = new Date();
 
 					Date endDate = new Date();
-					Date startDate = DateUtils.addMins(endDate, - opts.getLivePeriodMins());
+					Date startDate = DateUtils.addMinutes(endDate, - opts.getLivePeriodMins());
 					
 					DupsCall liveCall = new DupsCall(_sourceIdByFeedId, feedsColl, snapsColl, 
 							opts.getDupsPeriodMins(), false, startDate, endDate, opts.isVerbose());

@@ -118,7 +118,7 @@ public final class SummEngineCall implements Callable<Boolean> {
 			
 			_kind = SummKind.getOrThrow(_summId.getKindId());
 			_period = Period.getOrThrow(_summId.getPeriodId());
-			_minDateInc = DateUtils.addMins(_maxDateExc, - _period.getLengthMins());
+			_minDateInc = DateUtils.addMinutes(_maxDateExc, - _period.getLengthMins());
 
 			if (_kind.equals(SummKind.List)) {
 				createSumm_ListKind();
@@ -139,8 +139,8 @@ public final class SummEngineCall implements Callable<Boolean> {
 			
 			// save the result error summary
 			Date createDate = _maxDateExc;
-			Date dyingDate = DateUtils.addMins(createDate, ERROR_SUMM_DYING_MINS);
-			Date deadDate = DateUtils.addMins(createDate, ERROR_SUMM_DEAD_MINS);
+			Date dyingDate = DateUtils.addMinutes(createDate, ERROR_SUMM_DYING_MINS);
+			Date deadDate = DateUtils.addMinutes(createDate, ERROR_SUMM_DEAD_MINS);
 			SummResult result = new SummResult(_summId, createDate, dyingDate, deadDate, summ);
 			result.upsertUnacknowledged(_engine.getSummColl());
 		}
@@ -207,8 +207,8 @@ public final class SummEngineCall implements Callable<Boolean> {
 
 		_log.fine("Saving summary... " + _summIdStr);
 		Date createDate = _maxDateExc;
-		Date dyingDate = DateUtils.addMins(createDate, _period.getDyingMins());
-		Date deadDate = DateUtils.addMins(createDate, _period.getDeadMins());
+		Date dyingDate = DateUtils.addMinutes(createDate, _period.getDyingMins());
+		Date deadDate = DateUtils.addMinutes(createDate, _period.getDeadMins());
 		SummResult result = new SummResult(_summId, createDate, dyingDate, deadDate, summ);
 		result.upsertUnacknowledged(_engine.getSummColl());
 	}
@@ -305,8 +305,8 @@ public final class SummEngineCall implements Callable<Boolean> {
 		
 		_log.fine("Saving summary... " + _summIdStr);
 		Date createDate = _maxDateExc;
-		Date dyingDate = DateUtils.addMins(createDate, _period.getDyingMins());
-		Date deadDate = DateUtils.addMins(createDate, _period.getDeadMins());
+		Date dyingDate = DateUtils.addMinutes(createDate, _period.getDyingMins());
+		Date deadDate = DateUtils.addMinutes(createDate, _period.getDeadMins());
 		SummResult result = new SummResult(_summId, createDate, dyingDate, deadDate, summ);
 		result.upsertUnacknowledged(_engine.getSummColl());
 	}

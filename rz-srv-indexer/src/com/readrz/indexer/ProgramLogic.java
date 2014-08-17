@@ -194,7 +194,7 @@ public final class ProgramLogic {
 					lastCheckDate = new Date();
 
 					Date endDate = new Date();
-					Date startDate = DateUtils.addMins(endDate, - opts.getLivePeriodMins());
+					Date startDate = DateUtils.addMinutes(endDate, - opts.getLivePeriodMins());
 					
 					IdxCall liveCall = new IdxCall(
 							snapsParser,

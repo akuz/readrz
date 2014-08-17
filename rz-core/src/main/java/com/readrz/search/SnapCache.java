@@ -28,7 +28,7 @@ public final class SnapCache {
 		_snapSearcher = snapSearcher;
 		_cache = new HashMap<>();
 		_cleanFreqMins = cleanFreqMins;
-		_nextCleanTime = DateUtils.addMins(new Date(), cleanFreqMins);
+		_nextCleanTime = DateUtils.addMinutes(new Date(), cleanFreqMins);
 	}
 	
 	public SnapInfo get(final ObjectId snapId) {
@@ -90,7 +90,7 @@ public final class SnapCache {
 			}
 		}
 		
-		_nextCleanTime = DateUtils.addMins(new Date(), _cleanFreqMins);
+		_nextCleanTime = DateUtils.addMinutes(new Date(), _cleanFreqMins);
 	}
 
 }

@@ -88,7 +88,7 @@ public final class PathsCall implements Callable<Boolean> {
 			long ms2 = System.currentTimeMillis();
 			
 			// init min date
-			Date minDateInc = DateUtils.addMins(_maxDateExc, - _pathsId.getPeriod().getLengthMins());
+			Date minDateInc = DateUtils.addMinutes(_maxDateExc, - _pathsId.getPeriod().getLengthMins());
 			
 			// prepare data structures
 			List<SnapPhrase> phrases = new ArrayList<>();

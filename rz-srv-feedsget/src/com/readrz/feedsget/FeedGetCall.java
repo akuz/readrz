@@ -81,7 +81,7 @@ public final class FeedGetCall implements Callable<Boolean> {
 				}
 	
 				Date nowDate = new Date();
-				Date minDate = DateUtils.addMins(nowDate, -freqCountPeriodMins);
+				Date minDate = DateUtils.addMinutes(nowDate, -freqCountPeriodMins);
 				int freqCheckSnapCount = 0;
 				
 				// save snaps we got
@@ -126,7 +126,7 @@ public final class FeedGetCall implements Callable<Boolean> {
 						}
 					}
 				}
-				Date nextDate = DateUtils.addMins(nowDate, nextCheckMins);
+				Date nextDate = DateUtils.addMinutes(nowDate, nextCheckMins);
 				_feedGet.setNextScanDate(nextDate);
 				
 				break;

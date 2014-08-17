@@ -77,7 +77,7 @@ public class Program {
 		final double MIN_MINUTES_DIFF_TO_MERGE = 120;
 		final int ITERATION_COUNT = 5;
 		
-		SnapSearch search = snapSearcher.startSearch(false, queryKeyIds, DateUtils.addMins(new Date(), -MINUTES), new Date(), 10000);
+		SnapSearch search = snapSearcher.startSearch(false, queryKeyIds, DateUtils.addMinutes(new Date(), -MINUTES), new Date(), 10000);
 		
 		Index<String> stemsIndex = new HashIndex<>();
 		Map<Integer, Integer> keyIdByStemIndex = new HashMap<>();

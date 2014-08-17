@@ -193,7 +193,7 @@ public final class ProgramLogic {
 					lastCheckDate = new Date();
 
 					Date endDate = new Date();
-					Date startDate = DateUtils.addMins(endDate, - options.getLivePeriodMins());
+					Date startDate = DateUtils.addMinutes(endDate, - options.getLivePeriodMins());
 					
 					ScanSubmitCall liveCall = new ScanSubmitCall(
 							scanEngine,

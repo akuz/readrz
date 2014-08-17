@@ -47,7 +47,7 @@ public final class DupsCall implements Callable<Boolean> {
 	public Boolean call() {
 		
 		// load from start date - minus the dups check period
-		Date loadStartDate = DateUtils.addMins(_startDate, - _dupsPeriodMins);
+		Date loadStartDate = DateUtils.addMinutes(_startDate, - _dupsPeriodMins);
 		
 		// load *all* anyway, even if dupsChecked, because we need to compare to them!
 		DBCursor cursor = Snap.selectBetweenDatesAsc(_snapsColl, loadStartDate, _endDate, null);
@@ -65,7 +65,7 @@ public final class DupsCall implements Callable<Boolean> {
 				
 				Snap currSnap = new Snap(cursor.next());
 				
-				Date dupsMinDate = DateUtils.addMins(currSnap.getSrcDate(), - _dupsPeriodMins);
+				Date dupsMinDate = DateUtils.addMinutes(currSnap.getSrcDate(), - _dupsPeriodMins);
 				
 				ObjectId currFeedId = currSnap.getFeedId();
 				ObjectId currSourceId = null;

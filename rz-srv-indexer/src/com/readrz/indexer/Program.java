@@ -74,7 +74,7 @@ public class Program {
 							if (mins < 0) {
 								throw new IllegalArgumentException("startupPeriodMins should be >= 0");
 							}
-							UtcDate utcDate = new UtcDate(DateUtils.addMins(new Date(), - mins));
+							UtcDate utcDate = new UtcDate(DateUtils.addMinutes(new Date(), - mins));
 							startupFromDate = utcDate.getDate();
 	
 							i++;

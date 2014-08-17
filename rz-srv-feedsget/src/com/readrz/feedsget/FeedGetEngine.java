@@ -139,7 +139,7 @@ public final class FeedGetEngine implements Runnable {
 								}
 								System.out.println("WILL: Try again after " + errorDelayMins + " minutes...");
 
-								Date nextScanDate = DateUtils.addMins(new Date(), errorDelayMins);
+								Date nextScanDate = DateUtils.addMinutes(new Date(), errorDelayMins);
 								feedGet.setNextScanDate(nextScanDate);
 							}
 							

@@ -57,7 +57,7 @@ public final class ScanSnapCall implements Comparable<ScanSnapCall>, Callable<Bo
 	
 	public void setNextAttempt() {
 		_attempt += 1;
-		_dueDate = DateUtils.addMins(new Date(), NEXT_ATTEMPT_DELAY_MINS);
+		_dueDate = DateUtils.addMinutes(new Date(), NEXT_ATTEMPT_DELAY_MINS);
 	}
 
 	@Override
